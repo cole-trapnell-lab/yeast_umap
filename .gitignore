@@ -1,0 +1,14 @@
+*.csv
+*.rds
+*.txt
+.ipynb_checkpoints/
+Kemmeren_etal_Cell_table1.csv
+Kemmeren_etal_Cell_table2.csv
+Plots/
+R_objects/
+deltxn_UMAP_coords.csv
+deltxn_UMAP_coords_100clust.csv
+deltxn_UMAP_coords_135clust.csv
+deltxn_UMAP_coords_33clust.csv
+deltxn_UMAP_coords_50clust.csv
+deltxn_UMAP_coords_94clust.csv
