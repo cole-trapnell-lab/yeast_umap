@@ -1,13 +1,12 @@
 library(dplyr)
 library(tidyr)
+library(stringr)
 library(monocle)
 library(ggplot2)
 library(reshape2)
-library(viridis)
 library(fields)
-library(stringr)
 
-setwd("~/Dropbox (Cole Trapnell's Lab)/yeast_txnClusters/useful_files/")
+setwd("/.../yeast_txnClusters/useful_files/")
 
 cds <- readRDS("deltxn_UMAP_2D_171clust.rds")
 
@@ -75,11 +74,11 @@ head(nonpc_dists,40)
 dim(nonpc_dists)
 head(nonpc_dists)
 
-tmp3 <- nonpc_dists[sample(nrow(nonpc_dists), 2200),]
+nonpc_2k <- nonpc_dists[sample(nrow(nonpc_dists), 2200),]
 
-nonpc_dists$group <- "nonPCs"
+nonpc_2k$group <- "nonPCs"
 
-comb_df <- rbind(pc_dists, nonpc_dists)
+comb_df <- rbind(pc_dists, nonpc_2k)
 
 ggplot(comb_df, aes(x = dist, color = group)) + 
   geom_density(size = 1.2) + 
@@ -87,7 +86,5 @@ ggplot(comb_df, aes(x = dist, color = group)) +
   monocle:::monocle_theme_opts() +
   xlim(0,1.5)
 
-wilcox.test(tmp$dist, tmp3$dist)
-
-# maybe something like this will work once we have things in the right format? 
-cmplx_dist %>% group_by(Complex) %>% mutate(Dist = colMeans())
+# stats
+wilcox.test(pc_dists$dist, nonpc_2k$dist)
