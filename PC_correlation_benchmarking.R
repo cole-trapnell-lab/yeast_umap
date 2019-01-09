@@ -154,7 +154,8 @@ ggplot(df, aes(dist, correlation)) +
   geom_smooth(method = "loess") +
   monocle:::monocle_theme_opts()
 
-plot(pc_dists$dist, pc_cor$correlation, pch='.', xlim=c(0,1))
+summary(lm(correlation ~ dist, data = df))
+summary(lm(correlation ~ dist, data = df2))
 
 ggplot(pc_cor, aes(x = cor_mean)) + geom_density() + 
   monocle:::monocle_theme_opts()
