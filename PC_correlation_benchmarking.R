@@ -6,7 +6,9 @@ library(ggplot2)
 library(reshape2)
 library(fields)
 
-setwd("~/Dropbox (Cole Trapnell's Lab)/yeast_txnClusters/useful_files/")
+#setwd("~/Dropbox (Cole Trapnell's Lab)/yeast_txnClusters/useful_files/")
+setwd("~/Desktop/yeast_txnClusters/useful_files/")
+
 
 cds <- readRDS("deltxn_UMAP_2D_171clust_V2.rds")
 
@@ -18,11 +20,13 @@ PCs <- PCs %>% select(Complex = X..Complex.name, sys_gene = Complex.members..sys
 pc_list <- separate_rows(PCs, sys_gene, sep = ";")
 pc_list$sys_gene <- str_trim(pc_list$sys_gene)
 
-table(duplicated(pc_list$sys_gene))
-length(intersect(pc_list$sys_gene, pdat$strain.sys))
+pc_list %>% filter(grepl("YOL004W", sys_gene))
+pc_list %>% filter(grepl("Rpd3L", Complex))
 
+table(duplicated(pc_list$sys_gene))
 
 pdat <- pData(cds)
+length(intersect(pc_list$sys_gene, pdat$strain.sys))
 
 # filter pData for genes in complexes
 pdat_filt <- pdat[pdat$strain.sys %in% intersect(pc_list$sys_gene, pdat$strain.sys),]
@@ -51,9 +55,11 @@ cmplx_dist <- left_join(udist_melt, pc_list, by = "sys_gene") %>%
 cmplx_dist <- left_join(cmplx_dist, pc_list, by = c("gene2" = "sys_gene")) %>% 
               select(gene1, gene2, gene1.complex, gene2.complex = Complex, dist)
 
+cmplx_dist$gene_pair <- paste(cmplx_dist$gene1, cmplx_dist$gene2, sep = "_")
+
 # filter for things in the same complex (UMAP)
 pc_dists <- cmplx_dist %>% filter(gene1.complex == gene2.complex & gene1 != gene2) %>%
-        select(gene1, gene2, dist)
+        select(gene1, gene2, dist, gene_pair)
 pc_dists <- pc_dists[!duplicated(pc_dists[,c("gene1", "gene2")]),]
 #pc_dists <- pc_dists %>% group_by(gene1) %>% summarize(dist_mean = mean(dist))
 pc_dists$group <- "PC_umap" # add group name for combining lists to plot
@@ -67,7 +73,7 @@ ggplot(pc_dists, aes(x = dist)) + geom_density() +
   xlim(0,2)
 
 # filter for things NOT in the same complex (UMAP)
-nonpc_dists <- cmplx_dist %>% filter(gene1.complex != gene2.complex & gene1 != gene2) %>%
+nonpc_dists <- cmplx_dist %>% filter(!(gene_pair %in% pc_dists$gene_pair) & gene1 != gene2) %>%
   select(gene1, gene2, dist)
 nonpc_dists <- nonpc_dists[!duplicated(nonpc_dists[,c("gene1", "gene2")]),]
 #nonpc_dists <- nonpc_dists %>% group_by(gene1) %>% summarize(dist_mean = mean(dist))
@@ -116,25 +122,49 @@ cmplx_cor <- left_join(cor_melt, pc_list, by = "sys_gene") %>%
 cmplx_cor <- left_join(cmplx_cor, pc_list, by = c("gene2" = "sys_gene")) %>% 
   select(gene1, gene2, gene1.complex, gene2.complex = Complex, correlation)
 
+# add a column of gene pairs
+cmplx_cor$gene_pair <- paste(cmplx_cor$gene1, cmplx_cor$gene2, sep = "_")
+
 # filter for things in the same complex
 pc_cor <- cmplx_cor %>% filter(gene1.complex == gene2.complex & gene1 != gene2) %>%
-  select(gene1, gene2, correlation)
+  select(gene1, gene2, correlation, gene1.complex, gene_pair)
 pc_cor <- pc_cor[!duplicated(pc_cor[,c("gene1", "gene2")]),]
-#pc_cor <- pc_cor %>% group_by(gene1) %>% summarize(dist_mean = mean(dist))
+#pc_cor <- pc_cor %>% group_by(gene1) %>% summarize(cor_mean = mean(correlation))
 pc_cor$group <- "PC_cor"
 
 head(pc_cor,10)
 dim(pc_cor)
 head(pc_cor)
 
-ggplot(pc_cor, aes(x = correlation)) + geom_density() + 
+identical(pc_dists$gene1, pc_cor$gene1)
+
+df <- cbind(pc_dists, pc_cor %>% select(correlation))
+
+ggplot(df, aes(dist, correlation)) +
+    geom_point() +
+    geom_density_2d() +
+    xlim(0,0.02) +
+    geom_smooth(method = "lm") +
+    monocle:::monocle_theme_opts()
+
+ggplot(df, aes(dist, correlation)) +
+  geom_point() +
+  geom_density_2d() +
+  xlim(0,1) +
+  geom_smooth(method = "loess") +
+  monocle:::monocle_theme_opts()
+
+plot(pc_dists$dist, pc_cor$correlation, pch='.', xlim=c(0,1))
+
+ggplot(pc_cor, aes(x = cor_mean)) + geom_density() + 
   monocle:::monocle_theme_opts()
 
 # filter for things NOT in the same complex (correlation)
-nonpc_cor <- cmplx_cor %>% filter(gene1.complex != gene2.complex & gene1 != gene2) %>%
+nonpc_cor <- cmplx_cor %>% filter(!(gene_pair %in% pc_cor$gene_pair) & gene1 != gene2) %>%
   select(gene1, gene2, correlation)
 nonpc_cor <- nonpc_cor[!duplicated(nonpc_cor[,c("gene1", "gene2")]),]
-#nonpc_cor <- nonpc_cor %>% group_by(gene1) %>% summarize(dist_mean = mean(dist))
+
+nonpc_cor %>% filter(grepl("YNL330C", gene1)) %>% filter(grepl("YOL004W", gene2)) %>% head(10)
 
 head(nonpc_cor,10)
 dim(nonpc_cor)
@@ -151,6 +181,21 @@ ggplot(comb_cor, aes(x = correlation, color = group)) +
   geom_density(size = 1.2) + 
   scale_color_manual(values = c("#7c7c7c", "#ea3327")) +
   monocle:::monocle_theme_opts()
+
+
+identical(pc_dists$gene1, pc_cor$gene1)
+
+df2 <- cbind(nonpc_dists, nonpc_cor %>% select(correlation))
+
+ggplot(df2, aes(dist, correlation)) +
+  geom_point(size=0.1) +
+  geom_density_2d() +
+  xlim(0,.05) +
+  geom_smooth(method = "lm") +
+  monocle:::monocle_theme_opts()
+
+dude = df2[df2$dist > 0,]
+head(dude[order(-(dude$correlation + -dude$dist)),],20)
 
 # stats
 wilcox.test(pc_cor$correlation, nonpc_cor_2k$correlation)
