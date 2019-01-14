@@ -19,9 +19,7 @@ PCs <- PCs %>% select(Complex = X..Complex.name, sys_gene = Complex.members..sys
 
 pc_list <- separate_rows(PCs, sys_gene, sep = ";")
 pc_list$sys_gene <- str_trim(pc_list$sys_gene)
-
-pc_list %>% filter(grepl("YOL004W", sys_gene))
-pc_list %>% filter(grepl("Rpd3L", Complex))
+write.table(pc_list, "protein_complex_list.tsv", sep = "\t")
 
 table(duplicated(pc_list$sys_gene))
 
@@ -186,35 +184,87 @@ ggplot(comb_cor, aes(x = correlation, color = group)) +
 
 identical(pc_dists$gene1, pc_cor$gene1)
 
-df2 <- cbind(nonpc_dists, nonpc_cor %>% select(correlation))
+nonpc_all <- cbind(nonpc_dists, nonpc_cor %>% select(correlation))
 
-ggplot(df2, aes(dist, correlation)) +
+ggplot(nonpc_all, aes(dist, correlation)) +
   geom_point(size=0.1) +
   geom_density_2d() +
   xlim(0,.05) +
   geom_smooth(method = "lm") +
   monocle:::monocle_theme_opts()
 
-dude = df2[df2$dist > 0,]
-head(dude[order(-(dude$correlation + -dude$dist)),],20)
+#dude = nonpc_all[dfnonpc_all2$dist > 0,]
+#head(dude[order(-(dude$correlation + -dude$dist)),],20)
+
+nonpc_all %>% filter(dist > 0) %>% arrange(-correlation, -dist)
+
 
 # stats
 wilcox.test(pc_cor$correlation, nonpc_cor_2k$correlation)
 
 
-# #combine all data sets (may not be ok to do this because of differences between cor and dist metrics)
-# comb_df2 <- rbind(pc_dists, nonpc_2k, pc_cor, nonpc_cor_2k)
-# comb_df2$neg_dist <- -(comb_df2$dist)
-# 
-# my_colors <- c()
-# 
-# ggplot(comb_df2, aes(x = neg_dist, color = group)) + 
-#   geom_density(size = 1.2) + 
-#   #scale_color_manual(values = c("#7c7c7c", "#ea3327")) +
-#   monocle:::monocle_theme_opts() +
-#   xlim(-1.5,0)
+
+
+###### ROC ANALYSIS #######
+
+cmplx_dist_filt <- cmplx_dist %>% filter(gene1 != gene2)
+dim(cmplx_dist_filt)
+
+cmplx_dist_filt$pair.in.complex <- ifelse(cmplx_dist_filt$gene1.complex == cmplx_dist_filt$gene2.complex, TRUE, FALSE)
+head(cmplx_dist_filt)
+
+
+cmplx_dist_filt$dist_bin = cut(cmplx_dist_filt$dist, seq(0,0.2,0.01))
+
+cmplx_dist_filt %>% group_by(dist_bin, pair.in.complex) %>% summarize(count = n()) %>% head()
+
+# add a column with cumulative bins
+dude_true <- dude %>% filter(pair.in.complex == TRUE)
+dude_true <- within(dude_true, acc_dist <- cumsum(count))
+
+dude_false <- dude %>% filter(pair.in.complex == TRUE)
+dude_false <- within(dude_true, acc_dist <- cumsum(count))
+
+dude_final <- rbind(dude_true, dude_false)
 
 
 
+# dist hist
+hist(cmplx_dist_filt$dist, breaks=1000, ylim=c(0,25000), xlim=c(0,1))
+
+#
+tpr = dude[dude$pair.in.complex == FALSE,]$count / sum(dude[dude$pair.in.complex == FALSE,]$count)
+fnr = dude[dude$pair.in.complex == TRUE,]$count / sum(dude[dude$pair.in.complex == TRUE,]$count)
+
+plot(tpr, 1-fnr, type='l', xlim=c(0,1), ylim=c(0,1))
+
+### one way to do it, maybe ###
+
+simple_roc <- function(labels, scores){
+  labels <- labels[order(scores, decreasing=TRUE)]
+  data.frame(TPR=cumsum(labels)/sum(labels), FPR=cumsum(!labels)/sum(!labels), labels)
+}
+
+tmp <- simple_roc(for_roc$pair.in.complex, for_roc$dist)
+
+tmp %>% 
+  ggplot(aes(x = TPR, y = 1-FPR)) +
+      geom_point() +
+      xlim(0,1) +
+      ylim(0,1) +
+      theme_classic()
+
+### another way, with a different result ###
+
+library(plotROC)
+
+for_roc %>% 
+  ggplot(aes(d = pair.in.complex, m = dist)) +
+  geom_roc() +
+  theme_bw()
 
 
+### annnnnd a third way, with a third result ###
+library(pROC)
+
+plot(roc(for_roc$pair.in.complex, for_roc$dist), col="blue", lwd=3)
