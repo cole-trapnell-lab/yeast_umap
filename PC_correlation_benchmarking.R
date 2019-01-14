@@ -6,8 +6,9 @@ library(ggplot2)
 library(reshape2)
 library(fields)
 
-#setwd("~/Dropbox (Cole Trapnell's Lab)/yeast_txnClusters/useful_files/")
+##setwd("~/Dropbox (Cole Trapnell's Lab)/yeast_txnClusters/useful_files/")
 setwd("~/Desktop/yeast_txnClusters/useful_files/")
+setwd("~/Dropbox/manuscripts/yeast_txnClusters/useful_files/")
 
 
 cds <- readRDS("deltxn_UMAP_2D_171clust_V2.rds")
@@ -214,9 +215,17 @@ cmplx_dist_filt$pair.in.complex <- ifelse(cmplx_dist_filt$gene1.complex == cmplx
 head(cmplx_dist_filt)
 
 
+dude = cmplx_dist_filt %>% group_by(dist_bin, pair.in.complex) %>% summarize(count = n())
+
+
 cmplx_dist_filt$dist_bin = cut(cmplx_dist_filt$dist, seq(0,0.2,0.01))
 
 cmplx_dist_filt %>% group_by(dist_bin, pair.in.complex) %>% summarize(count = n()) %>% head()
+
+# here's the cor one
+cmplx_cor_filt <- cmplx_cor %>% filter(gene1 != gene2)
+cmplx_cor_filt$pair.in.complex <- ifelse(cmplx_cor_filt$gene1.complex == cmplx_cor_filt$gene2.complex, TRUE, FALSE)
+
 
 # add a column with cumulative bins
 dude_true <- dude %>% filter(pair.in.complex == TRUE)
@@ -226,7 +235,6 @@ dude_false <- dude %>% filter(pair.in.complex == TRUE)
 dude_false <- within(dude_true, acc_dist <- cumsum(count))
 
 dude_final <- rbind(dude_true, dude_false)
-
 
 
 # dist hist
@@ -239,6 +247,8 @@ fnr = dude[dude$pair.in.complex == TRUE,]$count / sum(dude[dude$pair.in.complex 
 plot(tpr, 1-fnr, type='l', xlim=c(0,1), ylim=c(0,1))
 
 ### one way to do it, maybe ###
+for_roc <- cmplx_dist_filt[!is.na(cmplx_dist_filt$dist_bin),] %>% select(pair.in.complex, dist,gene_pair)
+
 
 simple_roc <- function(labels, scores){
   labels <- labels[order(scores, decreasing=TRUE)]
@@ -267,4 +277,10 @@ for_roc %>%
 ### annnnnd a third way, with a third result ###
 library(pROC)
 
-plot(roc(for_roc$pair.in.complex, for_roc$dist), col="blue", lwd=3)
+# overlays dist vs cor roc curves
+plot(roc(for_roc$pair.in.complex, for_roc$dist), col="steelblue", lwd=3)
+lines(roc(cmplx_cor_filt$pair.in.complex, cmplx_cor_filt$correlation), col="black", lwd=3)
+
+# calculate AUC
+roc(for_roc$pair.in.complex, for_roc$dist, auc=TRUE)
+roc(cmplx_cor_filt$pair.in.complex, cmplx_cor_filt$correlation, auc=TRUE)
