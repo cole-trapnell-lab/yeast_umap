@@ -4,11 +4,11 @@
 
 Dimensionality reduction is often used to visualize complex expression profiling data. Here, we use the Uniform Manifold Approximation and Projection (UMAP) method on published transcript profiles of 1484 single gene deletions of Saccharomyces cerevisiae. Proximity in low-dimensional UMAP space identifies groups of genes that correspond to protein complexes and pathways, and finds novel protein interactions, even within well-characterized complexes. This approach is more sensitive than previous methods and should be broadly useful as additional transcriptome datasets become available for other organisms.
 
-This is a tutorial to get started working with the Kemmeren et al., yeast deletion strain data. It includes:
+This is a tutorial to get started working with the Kemmeren et al., yeast deletion strain data in Monocle 3. It includes:
 
 1. Dimensionality reduction with UMAP and clustering approaches
 2. Differential expression testing 
-3. Measuring distance between deletion strains in UMAP space 
+3. Generating pairwise distances between strains in UMAP space for downstream analysis
 
 ### Prerequisites
 
