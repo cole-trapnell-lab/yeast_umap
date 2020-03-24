@@ -3,11 +3,9 @@ suppressPackageStartupMessages({
   library(viridis)
   library(reshape2)
   library(ggplot2)
-  library(data.table)})
+  library(data.table)
+  library(monocle3)})
 
-#library(monocle3)
-library(devtools)
-load_all("/Users/laurensaunders/Documents/Software/monocle3")
 
 # This notebook is to do differential expression testing using the most updated version of monocle 3
 
@@ -15,7 +13,7 @@ load_all("/Users/laurensaunders/Documents/Software/monocle3")
 
 cds = readRDS("R_objects/yeast_del_strain_monocle3_cds.RDS")
 
-#### wrapper function for differential gene expression testing (modified from J. Packer)
+#### function for differential gene expression testing with bulk transcriptome data
 two.set.differential.expression = function(cds, set.1.filter, set.2.filter, formal = F, cores = 1, thresh = 1) {
   message(paste("# of cells in set 1:", sum(set.1.filter)))
   message(paste("# of cells in set 2:", sum(set.2.filter)))
