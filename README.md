@@ -12,7 +12,7 @@ This is a tutorial to get started working with the Kemmeren et al., yeast deleti
 
 ### Prerequisites
 
-To get started, you will need to install [Monocle 3] (https://cole-trapnell-lab.github.io/monocle3/)
+To get started, you will need to install [Monocle 3](https://cole-trapnell-lab.github.io/monocle3/)
 
 Other helpful R packages are listed at the top of the notebooks. 
 
