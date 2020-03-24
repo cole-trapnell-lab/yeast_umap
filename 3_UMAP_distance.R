@@ -9,13 +9,10 @@ library(PRROC)
 library(pROC)
 
 
-setwd("~/Dropbox/manuscripts/yeast_txnClusters/yeast_umap/")
-
-
 # Load in protein complex IP-MS data --------------------------------------
 
 # generates a vector of protein complexes associated with genes (from Benschop, et al 2010)
-ppi.ipms <- read.csv("Kemmeren_Consensus.csv", stringsAsFactors = FALSE)
+ppi.ipms <- read.csv("useful_files/Kemmeren_Consensus.csv", stringsAsFactors = FALSE)
 ppi.ipms <- ppi.ipms %>% dplyr::select(Complex = complex_name, sys_gene = complex_members_sys)
 ppi_list <- separate_rows(ppi.ipms, sys_gene, sep = ";")
 ppi_list$sys_gene <- str_trim(ppi_list$sys_gene)
@@ -23,13 +20,13 @@ ppi_list$sys_gene <- str_trim(ppi_list$sys_gene)
 
 # Load in pairwise distances for each metric  -----------------------------------
 
-dist.pca = read.table('pca_dist.txt')
-dist.hd = read.table('hd_dist.txt')
-dist.pcc = read.table('pcc_dist.txt')
+dist.pca = read.table('useful_files/pca_dist.txt')
+dist.hd = read.table('useful_files/hd_dist.txt')
+dist.pcc = read.table('useful_files/pcc_dist.txt')
 
 # Calculate pairwise distances in UMAP space for downstream analyses
 # Read in meta-data of umap coordinates
-meta_umap = read.table('umap_metadata_clust50.txt')
+meta_umap = read.table('useful_files/umap_metadata_clust50.txt')
 
 # Filter for genes in the ppi dataset
 pdat_filt <- meta_umap[meta_umap$strain.sys %in% intersect(ppi_list$sys_gene, meta_umap$strain.sys),]

@@ -12,7 +12,7 @@ options(DelayedArray.block.size=1000e6)
 
 # Load data ---------------------------------------------------------------
 
-cds = readRDS("R_objects/yeast_del_strain_monocle3_cds.RDS")
+cds = readRDS("useful_files/yeast_del_strain_monocle3_cds.RDS")
 
 # Preprocess and run UMAP dimensionality reduction ------------------------
 
@@ -28,7 +28,7 @@ cds = reduce_dimension(cds,
 
 cds = cluster_cells(cds, resolution = 1e-4, k = 3)
 
-saveRDS(cds, "R_objects/yeast_del_strain_monocle3_cds.RDS")
+saveRDS(cds, "useful_files/yeast_del_strain_monocle3_cds.RDS")
 
 # plot strain umap
 plot_cells(cds, color_cells_by = "cluster_50", 

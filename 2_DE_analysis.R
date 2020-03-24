@@ -11,7 +11,7 @@ suppressPackageStartupMessages({
 
 # Load data ---------------------------------------------------------------
 
-cds = readRDS("R_objects/yeast_del_strain_monocle3_cds.RDS")
+cds = readRDS("useful_files/yeast_del_strain_monocle3_cds.RDS")
 
 #### function for differential gene expression testing with bulk transcriptome data
 two.set.differential.expression = function(cds, set.1.filter, set.2.filter, formal = F, cores = 1, thresh = 1) {
