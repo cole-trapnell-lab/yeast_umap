@@ -1,0 +1,519 @@
+﻿complex_name,source,complex_members_sys,complex_members_short,known_in_GO,known_in_lit,comments,pubmed
+Spp381-Prp38 complex,curated consensus,YBR152W; YGR075C,SPP381; PRP38,NO,YES,genetic interaction + two-hybrid interaction,9858581
+Asf1-Rad53 complex,curated consensus,YJL115W; YPL153C,ASF1; RAD53,NO,YES,,11331602; 11172707
+Pan1-End3 complex,curated consensus,YIR006C; YNL084C,PAN1; END3,NO,YES,,9234686
+Sod1-Css1 heterodimer,curated consensus,YJR104C; YMR038C,SOD1; CCS1,NO,YES,,11101286
+HAT-A4 complex,curated consensus,YBR010W; YBR009C; YNL030W; YEL056W; YPL001W; YLL022C; YOL054W; YNL031C,HHT1; HHF1; HHF2; HAT2; HAT1; HIF1; PSH1; HHT2,NO,YES,,9575221
+Ste11-Ste50 complex,curated consensus,YLR362W; YCL032W,STE11; STE50,NO,YES,,9742096; 9738877
+Cdc48-Ufd1-Npl4 complex,curated consensus,YDL126C; YBR170C; YGR048W,CDC48; NPL4; UFD1,NO,YES,,11847109
+Cdc48-Shp1 complex,curated consensus,YBL058W; YDL126C,SHP1; CDC48,NO,YES,,11847109
+Sit4-Sap155 complex,curated consensus,YDL047W; YFR040W,SIT4; SAP155,NO,YES,,8649382
+Ste12-Dig1-Dig2 complex,curated consensus,YPL049C; YHR084W; YDR480W,DIG1; STE12; DIG2,NO,YES,,9094309
+Rvs161-Rvs167 complex,curated consensus,YCR009C; YDR388W,RVS161; RVS167,NO,YES,,9434108; 11096097
+She2-She3-Myo4 complex,curated consensus,YAL029C; YBR130C; YKL130C,MYO4; SHE3; SHE2,NO,YES,,10792032; 11101531 
+Ubp3-Bre5 complex,curated consensus,YNR051C; YER151C,BRE5; UBP3,NO,YES,,12778054
+Rad6-Rad18 complex,curated consensus,YGL058W; YCR066W,RAD6; RAD18,NO,YES,"in GO only part of large proteasome complex, but literature states that RAD18 and RAD6 form a heterodimer that can associate with the proteasome",9287349
+Rtt109-Vps75 complex,curated consensus,YLL002W; YNL246W,RTT109; VPS75,NO,YES,,18036332
+Csm3-Tof1 complex,curated consensus,YMR048W; YNL273W,CSM3; TOF1,NO,YES,,14742714
+Psr2-Psr1-Whi2 complex,curated consensus,YLR019W; YLL010C; YOR043W,PSR2; PSR1; WHI2,NO,YES,Psr2 is functionally redundant with Psr1p,12090248
+Rad23-Png1 complex,curated consensus,YEL037C; YPL096W,RAD23; PNG1,NO,YES,,15351714
+Tim44-Ssc1 heterodimer,curated consensus,YIL022W; YJR045C,TIM44; SSC1,NO,YES,,12677068
+Dop1-Mon2 complex,curated consensus,YDR141C; YNL297C,DOP1; MON2,NO,YES,,16301316
+Rsp5-Ubp2-Rup1 deubiquitinating enzyme complex,curated consensus,YER125W; YOR124C; YOR138C,RSP5; UBP2; RUP1,NO,YES,,15933713
+Pho80-Pho81-Pho85 CDK-cyclin complex,curated consensus,YGR233C; YOL001W; YPL031C,PHO81; PHO80; PHO85,NO,YES,,7939631; 17412959
+Trm112-Trm11 complex,curated consensus,YNR046W; YOL124C,TRM112; TRM11,NO,YES,,18657261
+Dug2-Dug3 complex,curated consensus,YBR281C; YNL191W,DUG2; DUG3,NO,YES,,17179087
+Dph1-Dph2-Dph3 complex,curated consensus,YBL071W-A; YIL103W; YKL191W,KTI11; DPH1; DPH2,NO,YES,Dph3 is not entirely clear whether it is part of the same complex,15485916
+Scs2-Opi1 complex,curated consensus,YER120W; YHL020C,SCS2; OPI1,NO,YES,,15455074; 15192221
+Ula1-Uba3 enzyme complex,curated consensus,YPL003W; YPR066W,ULA1; UBA3,NO,YES,Ula1-Uba3 form an E1 enzyme pair to activate Rub1p,9545234
+Nam1-Sls1 complex,curated consensus,YDL044C; YLR139C,MTF2; SLS1,NO,YES,,12637560
+ER SNARE Use1,curated consensus,YDR498C; YLR440C; YNL258C; YKL196C; YLR268W; YGL145W; YOR075W; YGL098W,SEC20; SEC39; DSL1; YKT6; SEC22; TIP20; UFE1; USE1,NO,YES,"literature seems a bit confusing as to which complexes are specifically formed, but overall it seems that all members associate with oneanother at a given point (although Ykt6 is the most unsure, only shown that it can functionally replace Sec22)",12853481; 9214619; 15958492; 12221135 
+Pba1-Pba2 complex,curated consensus,YKL206C; YLR199C; YBR173C,ADD66; PBA1; UMP1,NO,YES,Ump1 which is loosely associated with Pba1-Pba2 functions as an assembly factor,17431397
+Gyl1-Gyp5 complex,curated consensus,YMR192W; YPL249C,GYL1; GYP5,NO,YES,,15331637
+Rtg1-Rtg3 bHLH-Zip complex,curated consensus,YBL103C; YOL067C,RTG3; RTG1,NO,YES,,9032238
+Sit4-Sap190 complex,curated consensus,YDL047W; YKR028W,SIT4; SAP190,NO,YES,,8649382
+Rtt103-Rai1-Rat1 complex,curated consensus,YDR289C; YGL246C; YOR048C,RTT103; RAI1; RAT1,NO,YES,,15565157
+R2TP complex,curated consensus,YCR060W; YHR034C; YDR190C; YPL235W,TAH1; PIH1; RVB1; RVB2,NO,YES,,15766533
+adenylyl cyclase complex,curated consensus,YJL005W; YNL138W,CYR1; SRV2,NO,YES,,2184942
+Ssc1-Mge1 complex,curated consensus,YJR045C; YOR232W,SSC1; MGE1,NO,YES,,9048947
+Dcs1-Dcs2 heterodimer,curated consensus,YLR270W; YOR173W,DCS1; DCS2,NO,YES,,15240832
+Kap114-Nap1 histone complex,curated consensus,YBL003C; YGL241W; YBL002W; YOL012C; YKR048C,HTA2; KAP114; HTB2; HTZ1; NAP1,NO,YES,,12456659
+Grh1-Bug1 complex,curated consensus,YDL099W; YDR517W,BUG1; GRH1,NO,YES,,17261844
+Mad1-Mad2 complex,curated consensus,YGL086W; YJL030W,MAD1; MAD2,NO,YES,,10436016
+Ic-CPY complex,curated consensus,YLR178C; YMR297W,TFS1; PRC1,NO,YES,,4612529; 9521655
+Mlh2-Mlh1 heterodimer,curated consensus,YLR035C; YMR167W,MLH2; MLH1,NO,YES,,10570173
+Sac3-Thp1 complex,curated consensus,YDR159W; YOL072W,SAC3; THP1,NO,YES,,12411502
+tRNA methyltransferase complex,curated consensus,YDL201W; YDR165W,TRM8; TRM82,NO,YES,,12403464
+Tlg1 SNARE complex,curated consensus,YBL050W; YDR468C; YGL095C; YOL018C,SEC17; TLG1; VPS45; TLG2,NO,YES,,10397773
+ribosome-associated complex,curated consensus,YGR285C; YHR064C; YJL080C,ZUO1; SSZ1; SCP160,NO,YES,Scp160 is not known to be in the complex,11274393
+Trm9-Trm112 complex,curated consensus,YML014W; YNR046W,TRM9; TRM112,NO,YES,,18657261
+prohibitin complex,curated consensus,YGR132C; YGR231C,PHB1; PHB2,NO,YES,,15525670
+succinyl-CoA ligase,curated consensus,YGR244C; YOR142W,LSC2; LSC1,NO,YES,,9874242
+Gsp1-Prp20 complex,curated consensus,YGL097W; YLR293C; YOR185C,SRM1; GSP1; GSP2,NO,YES,GSP2 is almost identical to Gsp1p,8455603
+Kic1-Sog2 complex,curated consensus,YHR102W; YOR353C,KIC1; SOG2,NO,YES,,12972564
+Nrd1-Nab3-Sen1 termination complex,curated consensus,YLR430W; YNL251C; YPL190C; YMR239C,SEN1; NRD1; NAB3; RNT1,NO,YES,Rnt1 is not known to be in the complex,18660819
+Ssk1-Ssk2 complex,curated consensus,YLR006C; YNR031C,SSK1; SSK2,NO,YES,,9482735
+Vti1-Pep12 complex,curated consensus,YMR197C; YOR036W,VTI1; PEP12,NO,YES,,9199167
+Pcl7-Pho85 CDK-cyclin complex,curated consensus,YPL031C; YIL050W,PHO85; PCL7,NO,YES,,11069666
+Prs1-Prs3 heterodimer,curated consensus,YHL011C; YKL181W,PRS3; PRS1,NO,YES,,10212224
+Vac14-Fig4 complex,curated consensus,YLR386W; YNL325C,VAC14; FIG4,NO,YES,,14528018
+Cpr6-Hsc82-Sti1-Hsp82 complex,curated consensus,YLR216C; YMR186W; YOR027W; YPL240C,CPR6; HSC82; STI1; HSP82,NO,YES,not entirely clear whether Cpr6 and Sti1 can bind at the same time to Hsp82p. Hsc82 is 97% identical to Hsp82p,9927435
+Bur1-Bur2 CDK-cyclin complex,curated consensus,YPR161C; YLR226W,SGV1; BUR2,NO,YES,,10982824
+Bub1-Bub3 kinase complex,curated consensus,YGR188C; YOR026W,BUB1; BUB3,NO,YES,,7969164
+Sis2-Ykl088w-Vhs3 complex,curated consensus,YKR072C; YKL088W; YOR054C,SIS2; CAB3; VHS3,NO,YES,,14690591
+putative Slu7-Prp18 complex,curated consensus,YDR088C; YGR006W,SLU7; PRP18,NO,YES?,SLU7 seems to recruit PRP18 to the spliceosome,12212850
+COMA complex,curated consensus,YBR107C; YBR211C; YDR318W; YJR135C; YGR179C; YDR254W; YPL018W; YLR381W; YDR383C; YLR315W; YPR046W,IML3; AME1; MCM21; MCM22; OKP1; CHL4; CTF19; CTF3; NKP1; NKP2; MCM16,subcomplex not defined in GO,YES,together with MIND and Ndc80 constitutes three independent platforms onto which outer kinetochore protons can assemble,14633972
+TEL complex,curated consensus,YDR227W; YDL042C,SIR4; SIR2,subcomplex not defined in GO,YES,,11500379
+nucleoporin Nup84 subcomplex,curated consensus,YGL100W; YDL116W; YGL092W; YKL057C; YJR042W; YLR208W,SEH1; NUP84; NUP145; NUP120; NUP85; SEC13,subcomplex not defined in GO,YES,,8565072
+Dcp1-Dcp2 decapping enzyme complex,curated consensus,YBR094W; YEL015W; YOL149W; YNL118C,PBY1; EDC3; DCP1; DCP2,subcomplex not defined in GO,YES,Pby1 is not known to be in the same complex,15225544
+Ulp1 nuclear pore complex,curated consensus,YLR347C; YMR308C; YPL020C,KAP95; PSE1; ULP1,subcomplex not defined in GO,YES,,12471376
+TFIIK complex,curated consensus,YDL108W; YDR460W; YPR025C,KIN28; TFB3; CCL1,subcomplex not defined in GO,YES,,8001136
+Spt6-Spn1 elongator factor complex,curated consensus,YGR116W; YPR133C,SPT6; SPN1,subcomplex not defined in GO,YES,,12242279
+cleavage factor I complex,curated consensus,YDR228C; YGL044C; YOR250C; YMR061W,PCF11; RNA15; CLP1; RNA14,subcomplex not defined in GO,YES,missing Hrp1p,11344258
+Cln-Cdc28 protein kinase complex,curated consensus,YMR199W; YBR160W; YKR091W; YLR210W; YLR079W; YDL155W; YPL256C; YBR135W,CLN1; CDC28; SRL3; CLB4; SIC1; CLB3; CLN2; CKS1,subcomplex not defined in GO,YES,,8402888; 9841670
+Isw2-Itc1 complex,curated consensus,YGL133W; YOR304W,ITC1; ISW2,subcomplex not defined in GO,YES,,11238944
+nucleoporin Nup82 subcomplex,curated consensus,YIL115C; YJL061W; YJL041W; YER107C; YMR047C,NUP159; NUP82; NSP1; GLE2; NUP116,subcomplex not defined in GO,YES,"Nup116-Gle2 complex associates with nucleoporin subcomplex consisting of Nup82p, Nsp1 and Nup159p",10801828
+Snx4-Snx41 heterodimer,curated consensus,YJL036W; YDR425W,SNX4; SNX41,subcomplex not defined in GO,YES,,12554655
+Nup60-Nup2 nuclear pore complex,curated consensus,YAR002W; YLR335W; YLR347C,NUP60; NUP2; KAP95,subcomplex not defined in GO,YES,Kap60-Kap95 heterodimer dissociates Nup2 from Nup60p,11535617
+Erp1-Erp2-Emp24-Erv25 p24 complex,curated consensus,YAL007C; YAR002C-A; YGL200C; YML012W,ERP2; ERP1; EMP24; ERV25,subcomplex not defined in GO,YES,,10359606
+nucleoporin Nsp1 subcomplex,curated consensus,YFR002W; YGL172W; YGR119C; YJL041W,NIC96; NUP49; NUP57; NSP1,subcomplex not defined in GO,YES,,7688296; 9017593
+HDA complex,curated consensus,YDR295C; YNL021W; YPR179C,HDA2; HDA1; HDA3,subcomplex not defined in GO,YES,,8663039
+core H-ACA snoRNP,curated consensus,YDL208W; YHR072W-A; YHR089C; YLR175W; YNL308C,NHP2; NOP10; GAR1; CBF5; KRI1,subcomplex not defined in GO,YES,Kri1 is not known to be in the complex,9843512
+Atg11-Atg17-Atg29-Cis1 complex,curated consensus,YPR049C; YPL166W; YDR022C; YLR423C,ATG11; ATG29; CIS1; ATG17,subcomplex not defined in GO,YES,"Atg17 forms a ternary complex with Atg29 and Atg31p(Cis1p), Atg11 can recruit Atg17 and Atg29 to the PAS (pre-autophagosomal structure)",18287526
+Clathrin,curated consensus,YGL206C; YGR167W,CHC1; CLC1,subcomplex not defined in GO,YES,,9845372
+Ctf18 RFC-like complex,curated consensus,YCL016C; YHR191C; YMR078C,DCC1; CTF8; CTF18,subcomplex not defined in GO,YES,,11389843
+commitment complex 2,curated consensus,YKL074C; YLR116W,MUD2; MSL5,subcomplex not defined in GO,YES,,10376880
+Sec24-Sfb2-Sec16-Sec23 complex,curated consensus,YIL109C; YNL049C; YPL085W; YPR181C,SEC24; SFB2; SEC16; SEC23,subcomplex not defined in GO,YES,Sec23-Sec24 seem to participate in three different complex formations. Sfb2 is functionally redundant with Sec24p,10753972; 8930902
+"vacuolar proton-transporting V-type ATPase, V0 domain",curated consensus,YPR149W; YKL119C; YLR447C; YOR270C,NCE102; VPH2; VMA6; VPH1,YES,YES,Nce102 is not known to be in the complex,10224039
+Hrd1 ubiquitin ligase ERAD-L complex,curated consensus,YDR057W; YLR207W; YOL013C; YML029W,YOS9; HRD3; HRD1; USA1,YES,YES,,16873066
+anthranilate synthase complex,curated consensus,YER090W; YKL211C,TRP2; TRP3,YES,YES,,3881257
+nuclear cohesin complex,curated consensus,YJL074C; YFL008W; YIL026C; YDL003W,SMC3; SMC1; IRR1; MCD1,YES,YES,,9990856; 9887095; 10499801
+protein kinase CK2 complex,curated consensus,YGL019W; YIL035C; YOR039W; YOR061W,CKB1; CKA1; CKB2; CKA2,YES,YES,,9427841
+phosphatidylinositol 3-kinase complex II,curated consensus,YBR097W; YLR360W; YPL120W; YLR240W,VPS15; VPS38; VPS30; VPS34,YES,YES,,11157979
+mitochondrial proton-transporting ATP synthase complex,curated consensus,YBL099W; YBR039W; YDR298C; YKL016C,ATP1; ATP3; ATP5; ATP7,YES,YES,,10066811
+GINS complex,curated consensus,YDR013W; YJL072C; YDR489W; YOL146W,PSF1; PSF2; SLD5; PSF3,YES,YES,,12730134
+mitochondtrial large ribosomal subunit,curated consensus,YGR076C; YDR405W; YBR282W; YHR147C; YBL038W; YDR462W; YOR150W; YBR122C; YCR071C; YDR237W; YDR116C; YDR322W; YLR439W; YDR296W; YCR046C; YNL252C; YMR193W; YGR220C; YKL167C; YKR006C; YJL063C; YKR085C; YML025C; YMR024W; YNL005C; YLR312W-A; YPL183W-A; YMR098C; YML009C; YMR225C; YNL177C; YNL284C; YPR100W,MRPL25; MRP20; MRPL27; MRPL6; MRPL16; MRPL28; MRPL23; MRPL36; IMG2; MRPL7; MRPL1; MRPL35; MRPL4; MHR1; IMG1; MRPL17; MRPL24; MRPL9; MRP49; MRPL13; MRPL8; MRPL20; YML6; MRPL3; MRP7; MRPL15; RTC6; ATP25; MRPL39; MRPL44; MRPL22; MRPL10; MRPL51,YES,YES,,12392552; 9151978
+ribonuclease H2 complex,curated consensus,YDR279W; YNL072W,RNH202; RNH201,YES,YES,,14734815
+SUMO activating enzyme complex,curated consensus,YDR390C; YPR180W,UBA2; AOS1,YES,YES,,9312010
+tRNA (m1A) methyltransferase complex,curated consensus,YJL125C; YNL062C,GCD14; GCD10,YES,YES,,10779558
+polarisome,curated consensus,YER149C; YLL021W,PEA2; SPA2,YES,YES,,
+TRAMP complex,curated consensus,YDL175C; YJL050W; YOL115W,AIR2; MTR4; PAP2,YES,YES,,15828860
+transcription factor TFIIA complex,curated consensus,YKL058W; YOR194C,TOA2; TOA1,YES,YES,,7862117
+CPF complex,curated consensus,YMR061W; YER133W; YDR195W; YGR156W; YAL043C; YNL222W; YDR301W; YKL059C; YJR093C; YPR107C; YLR115W; YLR277C; YKR002W; YNL317W; YKL018W; YOR179C,RNA14; GLC7; REF2; PTI1; PTA1; SSU72; CFT1; MPE1; FIP1; YTH1; CFT2; YSH1; PAP1; PFS2; SWD2; SYC1,YES,YES,Rna14 is not known to be in the complex,10523662; 12819204
+serine C-palmitoyltransferase complex,curated consensus,YDR062W; YMR296C,LCB2; LCB1,YES,YES,,1556076
+Cyc8-Tup1 corepressor complex,curated consensus,YCR084C; YBR112C,TUP1; CYC8,YES,YES,,9111019; 8943325
+delta DNA polymerase complex,curated consensus,YDL102W; YJR006W; YJR043C,POL3; POL31; POL32,YES,YES,,
+snRNP U2,curated consensus,YDL043C; YJL203W; YMR240C; YDL030W; YPL213W; YML049C; YMR288W,PRP11; PRP21; CUS1; PRP9; LEA1; RSE1; HSH155,YES,YES,,11804584; 16314500
+AP-3 adaptor complex,curated consensus,YBR288C; YGR261C; YJL024C; YPL195W,APM3; APL6; APS3; APL5,YES,YES,,9335339
+Ric1-Rgp1 complex,curated consensus,YDR137W; YLR039C,RGP1; RIC1,YES,YES,,10990452
+Ndc80 complex,curated consensus,YER018C; YIL144W; YOL069W; YMR117C,SPC25; TID3; NUF2; SPC24,YES,YES,,11266451; 11179222
+Rpd3L complex,curated consensus,YDR207C; YDL076C; YAL013W; YBR095C; YNL097C; YIL084C; YMR263W; YPL181W; YOL004W; YNL330C; YPL139C; YMR075W,UME6; RXT3; DEP1; RXT2; PHO23; SDS3; SAP30; CTI6; SIN3; RPD3; UME1; RCO1,YES,YES,,16286007
+methionyl glutamyl tRNA synthetase complex,curated consensus,YGL245W; YGL105W; YGR264C,GUS1; ARC1; MES1,YES,YES,,11069915; 9659920
+protein phosphatase type 2A complex,curated consensus,YAL016W; YDL188C; YGL190C; YDL134C; YMR273C; YML109W; YOR014W,TPD3; PPH22; CDC55; PPH21; ZDS1; ZDS2; RTS1,YES,YES,,
+TORC1 complex,curated consensus,YHR186C; YJR066W,KOG1; TOR1,YES,YES,,12408816
+epsilon DNA polymerase complex,curated consensus,YDR121W; YBR278W; YNL262W; YPR175W,DPB4; DPB3; POL2; DPB2,YES,YES,,2406268; 11024162
+mitochondrial oxoglutarate dehydrogenase complex,curated consensus,YFR049W; YFL018C; YDR148C; YIL125W,YMR31; LPD1; KGD2; KGD1,YES,YES,Ymr31 is not known to bind,2072900
+NatC complex,curated consensus,YPR051W; YCR020C-A; YEL053C,MAK3; MAK31; MAK10,YES,YES,,10504710
+SWR1 complex,curated consensus,YAL011W; YDR485C; YLR085C; YBR231C; YDR334W; YLR385C; YLR399C; YML041C; YFL039C; YDR190C; YPL235W; YJL081C; YGR002C; YNL107W,SWC3; VPS72; ARP6; SWC5; SWR1; SWC7; BDF1; VPS71; ACT1; RVB1; RVB2; ARP4; SWC4; YAF9,YES,YES,,
+transcription factor TFIIE complex,curated consensus,YKL028W; YKR062W,TFA1; TFA2,YES,YES,,
+mRNA capping enzyme complex,curated consensus,YPL228W; YGL130W,CET1; CEG1,YES,YES,,9710603
+Set3C,curated consensus,YBR103W; YDR155C; YIL112W; YKR029C; YGL194C; YOL068C; YCR033W,SIF2; CPR1; HOS4; SET3; HOS2; HST1; SNT1,YES,YES,,11711434
+ESCRT II complex,curated consensus,YJR102C; YLR417W; YPL002C,VPS25; VPS36; SNF8,YES,YES,,12194858
+MutSalpha complex,curated consensus,YOL090W; YDR097C,MSH2; MSH6,YES,YES,,8816473
+Cdc73-Paf1 complex,curated consensus,YBR279W; YGL244W; YOR123C; YOL145C; YLR418C,PAF1; RTF1; LEO1; CTR9; CDC73,YES,YES,,9891041
+mitochondrial small ribosomal subunit,curated consensus,YER050C; YNR037C; YBR251W; YGR215W; YBR146W; YPL118W; YMR158W; YDR036C; YGR084C; YDL045W-A; YHR059W; YDR041W; YGL129C; YPL013C; YKL155C; YIL093C; YNL137C; YDR337W; YJR101W; YJR113C; YBL090W; YMR188C; YNL081C; YDR175C; YOR158W; YHL004W; YDR347W; YNR036C; YNL306W; YGR165W; YKL003C,RSM18; RSM19; MRPS5; RSM27; MRPS9; MRP51; MRPS8; EHD3; MRP13; MRP10; FYV4; RSM10; RSM23; MRPS16; RSM22; RSM25; NAM9; MRPS28; RSM26; RSM7; MRP21; MRPS17; SWS2; RSM24; PET123; MRP4; MRP1; MRPS12; MRPS18; MRPS35; MRP17,YES,YES,,9151978; 9445368; 11278769
+AP-1 adaptor complex,curated consensus,YFL034W; YHL019C; YKL135C; YLR170C; YPR029C; YPL259C,YFL034W; APM2; APL2; APS1; APL4; APM1,YES,YES,,10564262
+U4-U6 x U5 tri-snRNP complex,curated consensus,YGR074W; YER029C; YLR147C; YLR275W; YER172C; YKL173W; YHR165C; YDL098C; YGR091W; YDR473C; YOR308C; YBR055C; YPR178W; YPR082C,SMD1; SMB1; SMD3; SMD2; BRR2; SNU114; PRP8; SNU23; PRP31; PRP3; SNU66; PRP6; PRP4; DIB1,YES,YES,,10377396; 10449419
+GET complex,curated consensus,YDL100C; YER083C; YGL020C,GET3; GET2; GET1,YES,YES,,16269340
+NatB complex,curated consensus,YOL076W; YPR131C,MDM20; NAT3,YES,YES,,12890471
+heterotrimeric G-protein complex,curated consensus,YHR005C; YOR212W,GPA1; STE4,YES,YES,,11394869; 2105453
+ribonuclease MRP complex,curated consensus,YBL018C; YAL033W; YBR167C; YBR257W; YGR030C; YNL221C; YNL282W; YDR478W; YHR062C,POP8; POP5; POP7; POP4; POP6; POP1; POP3; SNM1; RPP1,YES,YES,,9620854; 15637077; 9353260; 9029160
+DASH complex,curated consensus,YDR201W; YDR016C; YKL052C; YGR113W; YGL061C; YKR083C; YKR037C; YKL138C-A; YBR233W-A,SPC19; DAD1; ASK1; DAM1; DUO1; DAD2; SPC34; HSK3; DAD3,YES,YES,,11799062; 15640796; 15664196
+COPI vesicle coat,curated consensus,YER122C; YGL137W; YDL145C; YDR238C; YNL287W; YFR051C; YIL076W; YPL010W,GLO3; SEC27; COP1; SEC26; SEC21; RET2; SEC28; RET3,YES,YES,,15254269; 8617224; 7929113
+GID complex,curated consensus,YCL039W; YDL176W; YDR255C; YBR105C; YGL227W; YIL097W; YIL017C; YMR135C,GID7; YDL176W; RMD5; VID24; VID30; FYV10; VID28; GID8,YES,YES,"Only recently found in literature (2008), YDL176W not part of this",18508925
+alpha-glucosidase II complex,curated consensus,YBR229C; YDR221W,ROT2; GTB1,YES,YES,,
+Golgi transport complex,curated consensus,YNL041C; YPR105C; YGL005C; YGL223C; YER157W; YNL051W; YGR120C; YML071C,COG6; COG4; COG7; COG1; COG3; COG5; COG2; COG8,YES,YES,,11703943
+mitochondrial processing peptidase complex,curated consensus,YHR024C; YLR163C,MAS2; MAS1,YES,YES,,2905264
+carbamoyl-phosphate synthase complex,curated consensus,YJR109C; YOR303W,CPA2; CPA1,YES,YES,,6086650; 6358221
+mitochondrial pyruvate dehydrogenase complex,curated consensus,YBR221C; YER178W; YNL071W; YGR193C,PDB1; PDA1; LAT1; PDX1,YES,YES,,9123965; 2007123
+Srb-mediator complex,curated consensus,YBL093C; YDL005C; YGL127C; YCR081W; YGR104C; YDR308C; YER022W; YGL025C; YOL051W; YPR168W; YMR112C; YDR443C; YBR253W; YOL135C; YLR071C; YPL042C; YHR041C; YHR058C; YBR193C; YOR174W; YPR070W; YNR010W; YGL151W; YNL236W,ROX3; MED2; SOH1; SRB8; SRB5; SRB7; SRB4; PGD1; GAL11; NUT2; MED11; SSN2; SRB6; MED7; RGR1; SSN3; SRB2; MED6; MED8; MED4; MED1; CSE2; NUT1; SIN4,YES,YES,,9420330; 16885025
+CCR4-NOT complex,curated consensus,YGR134W; YCR093W; YAL021C; YNL288W; YNR052C; YER068W,CAF130; CDC39; CCR4; CAF40; POP2; MOT2,YES,YES,,10490603
+ubiquitin conjugating enzyme complex,curated consensus,YGL087C; YMR140W; YDR092W,MMS2; SIP5; UBC13,YES,YES,Sip5 not known to be part of complex,10089880
+MBF transcription complex,curated consensus,YDL056W; YLR182W,MBP1; SWI6,YES,YES,,9719633
+mitochondrial respiratory chain complex II,curated consensus,YKL148C; YLL041C,SDH1; SDH2,YES,YES,,
+snf1 protein kinase complex,curated consensus,YDR028C; YDR422C; YER027C; YER129W; YDR477W; YGL115W; YGL208W,REG1; SIP1; GAL83; SAK1; SNF1; SNF4; SIP2,YES,YES,Reg1 and Sak1 are not known to be in the complex. Sak1 is an upstream kinase that can activate Snf1p,12393914
+m-AAA complex,curated consensus,YER017C; YMR089C,AFG3; YTA12,YES,YES,,8681382
+ESCRT-0 complex,curated consensus,YHL002W; YNR006W,HSE1; VPS27,YES,YES,,12055639
+TREX complex,curated consensus,YDR381W; YDL084W; YDR138W; YHR167W; YML062C; YNL139C; YNL253W; YNL004W,YRA1; SUB2; HPR1; THP2; MFT1; THO2; TEX1; HRB1,YES,YES,Hrb1 is not known to be in the complex,11979277
+alpha DNA polymerase:primase complex,curated consensus,YBL035C; YNL102W; YIR008C; YKL045W,POL12; POL1; PRI1; PRI2,YES,YES,,3888995
+NatA complex,curated consensus,YDL040C; YHR013C; YOR253W,NAT1; ARD1; NAT5,YES,YES,,14517307
+signal recognition particle,curated consensus,YDL051W; YKL122C; YML105C; YPR088C; YDL092W; YPL210C; YPL243W,LHP1; SRP21; SEC65; SRP54; SRP14; SRP72; SRP68,YES,YES,Lhp1 is not known to be in the complex,
+NEF4 complex,curated consensus,YJR052W; YPL046C,RAD7; ELC1,YES,YES,missing Abf1 and Rad16,15226437
+CCAAT-binding factor complex,curated consensus,YBL021C; YGL237C; YOR358W,HAP3; HAP2; HAP5,YES,YES,,9618445
+"vacuolar proton-transporting V-type ATPase, V1 domain",curated consensus,YJR033C; YDL185W; YBR127C; YGR020C; YHR039C-A; YEL051W; YPR036W; YOR332W; YKL080W,RAV1; TFP1; VMA2; VMA7; VMA10; VMA8; VMA13; VMA4; VMA5,YES,YES,,9442887
+PAN complex,curated consensus,YGL094C; YKL025C,PAN2; PAN3,YES,YES,,8816488
+cytosolic small ribosomal subunit,curated consensus,YDR025W; YER102W; YBR048W; YBR189W; YBL072C; YDR064W; YOR096W; YJR145C; YHR203C; YJL190C; YIL069C; YLR367W; YML024W; YPL081W; YOR204W,RPS11A; RPS8B; RPS11B; RPS9B; RPS8A; RPS13; RPS7A; RPS4A; RPS4B; RPS22A; RPS24B; RPS22B; RPS17A; RPS9A; DED1,YES,YES,,9559554; 3533916
+"gamma-tubulin small complex, spindle pole body",curated consensus,YAL047C; YHR172W; YNL126W; YLR212C,SPC72; SPC97; SPC98; TUB4,YES,YES,,9384578
+Elg1 RFC-like complex,curated consensus,YBR087W; YOL094C; YNL290W; YJR068W; YOR217W; YOR144C,RFC5; RFC4; RFC3; RFC2; RFC1; ELG1,YES,YES,,12912927
+tRNA-intron endonuclease complex,curated consensus,YLR105C; YPL083C,SEN2; SEN54,YES,YES,,9200603
+ISW1 complex,curated consensus,YBR245C; YKR001C; YPL082C; YLR095C; YMR044W,ISW1; VPS1; MOT1; IOC2; IOC4,YES,YES,,12482963
+EKC-KEOPS protein complex,curated consensus,YGR262C; YJL184W; YKR038C; YML036W,BUD32; GON7; KAE1; CGI121,YES,YES,,16874308
+FACT complex,curated consensus,YGL207W; YML069W,SPT16; POB3,YES,YES,,11432837
+HOPS complex,curated consensus,YMR231W; YAL002W; YLR396C; YLR148W; YDR080W; YDL077C; YPL045W,PEP5; VPS8; VPS33; PEP3; VPS41; VAM6; VPS16,YES,YES,"shares many subunits with CORVET complex, HOPS and CORVET complex can interconvert",10944212; 17488625
+MutSBeta complex,curated consensus,YOL090W; YCR092C,MSH2; MSH3,YES,YES,,8805366
+"cytochome c oxidase complex, subunits IV, Va, VI and VIIa",curated consensus,YNL052W; YGL187C; YDL067C; YHR051W,COX5A; COX4; COX9; COX6,YES,YES,"total number of cytochrom c oxidase amounts to 12, but most are easily lost due to purification techniques",1331058
+SCF ubiquitin ligase complex,curated consensus,YDL132W; YDR054C; YJL047C; YGL252C; YOL133W,CDC53; CDC34; RTT101; RTG2; HRT1,YES,YES,,9346238; 10385629
+nucleotide-excision repair factor 1 complex,curated consensus,YAL027W; YML095C; YPL022W,SAW1; RAD10; RAD1,YES,YES,,8621533
+carboxy-terminal domain protein kinase complex,curated consensus,YKL139W; YJL006C; YML112W,CTK1; CTK2; CTK3,YES,YES,,
+eukaryotic translation elongation factor 1 complex,curated consensus,YAL003W; YPL048W; YKL081W; YPR080W,EFB1; CAM1; TEF4; TEF1,YES,YES,,8420802; 3026912; 8041634 
+NuA4 histone acetyltransferase complex,curated consensus,YDR359C; YEL018W; YFL024C; YOR244W; YJR082C; YHR090C; YNL136W; YPR023C; YJL081C; YGR002C; YNL107W; YFL039C,EAF1; EAF5; EPL1; ESA1; EAF6; YNG2; EAF7; EAF3; ARP4; SWC4; YAF9; ACT1,YES,YES,,10487762
+RNA polymerase I complex,curated consensus,YNL113W; YPR110C; YHR143W-A; YBR154C; YPR187W; YOR224C; YOR210W; YDR156W; YJL148W; YJR063W; YNL248C; YOR340C; YOR341W; YPR010C,RPC19; RPC40; RPC10; RPB5; RPO26; RPB8; RPB10; RPA14; RPA34; RPA12; RPA49; RPA43; RPA190; RPA135,YES,YES,,9774381; 8246845
+90S preribosome,curated consensus,YBR247C; YDR324C; YPL126W; YOR310C; YGR145W; YLR222C; YNL075W; YJL109C; YDR398W; YCR057C; YPR144C; YLR409C; YNL132W; YLL011W; YDL148C; YOR145C; YBL004W; YLR186W; YCL059C; YJR145C; YDR449C; YPR112C; YMR128W; YJR002W; YDR299W; YOR096W; YPL217C; YLR197W; YOR078W; YDL014W; YPR137W; YMR093W; YOL010W; YPL266W; YLR003C; YJL069C; YGR128C; YLR129W; YGR090W; YPL012W; YER127W; YKR060W; YER082C; YEL055C; YDR064W; YHR196W; YGL171W; YHR148W,ENP1; UTP4; NAN1; NOP58; ENP2; UTP13; IMP4; UTP10; UTP5; PWP2; NOC4; UTP21; KRE33; SOF1; NOP14; PNO1; UTP20; EMG1; KRR1; RPS4A; UTP6; MRD1; ECM16; MPP10; BFR2; RPS7A; BMS1; NOP56; BUD21; NOP1; RRP9; UTP15; RCL1; DIM1; CMS1; UTP18; UTP8; DIP2; UTP22; RRP12; LCP5; UTP30; UTP7; POL5; RPS13; UTP9; ROK1; IMP3,YES,YES,,12150911
+RSC complex,curated consensus,YMR091C; YGL013C; YNR023W; YHR056C; YLR357W; YML127W; YDR303C; YDR225W; YOR156C; YGR056W; YFR037C; YOR290C; YIL126W; YHL025W; YJL176C; YMR033W; YDR073W; YCR020W-B; YPR034W; YCR052W; YBR289W; YLR321C; YLR033W; YGR275W; YFL049W; YPL016W; YKR008W,NPL6; PDR1; SNF12; RSC30; RSC2; RSC9; RSC3; HTA1; NFI1; RSC1; RSC8; SNF2; STH1; SNF6; SWI3; ARP9; SNF11; HTL1; ARP7; RSC6; SNF5; SFH1; RSC58; RTT102; SWP82; SWI1; RSC4,YES,YES,,12183366; 10619019
+CAAX-protein geranylgeranyltransferase complex,curated consensus,YKL019W; YGL155W,RAM2; CDC43,YES,YES,,1400380
+Arp2-3 protein complex,curated consensus,YDL029W; YBR234C; YIL062C; YNR035C; YKL013C; YLR370C; YJR065C,ARP2; ARC40; ARC15; ARC35; ARC19; ARC18; ARP3,YES,YES,,
+SAGA complex,curated consensus,YBR198C; YDR167W; YDR145W; YMR236W; YDR448W; YGR252W; YGL112C; YDR392W; YCL010C; YOL148C; YBR081C; YDR176W; YGL066W; YPL254W; YLR055C; YMR223W; YPL047W; YHR099W,TAF5; TAF10; TAF12; TAF9; ADA2; GCN5; TAF6; SPT3; SGF29; SPT20; SPT7; NGG1; SGF73; HFI1; SPT8; UBP8; SGF11; TRA1,YES,YES,,9674426
+TRAPP complex,curated consensus,YGR166W; YKR068C; YOR115C; YDR108W; YDR246W; YML077W; YDR407C; YBR254C; YDR472W; YMR218C,KRE11; BET3; TRS33; GSG1; TRS23; BET5; TRS120; TRS20; TRS31; TRS130,YES,YES,,10727015
+AP-2 adaptor complex,curated consensus,YBL037W; YJR058C; YJR005W; YOL062C,APL3; APS2; APL1; APM4,YES,YES,,10564262
+CAF-1 complex,curated consensus,YBR195C; YML102W; YPR018W,MSI1; CAC2; RLF2,YES,YES,,9030687
+GARP complex,curated consensus,YDR484W; YDR027C; YJL029C; YJL034W; YKR020W,VPS52; VPS54; VPS53; KAR2; VPS51,YES,YES,,10637310
+CCR4-NOT Not2-Not5 subcomplex,curated consensus,YDL165W; YPR072W,CDC36; NOT5,YES,YES,Not2 and Not5 are known to have a strong physical association,10490603
+origin recognition complex,curated consensus,YBR060C; YML065W; YLL004W; YPR162C; YHR118C; YNL261W,ORC2; ORC1; ORC3; ORC4; ORC6; ORC5,YES,YES,,
+Smc5-Smc6 complex,curated consensus,YEL019C; YDR288W; YOL034W; YDL105W,MMS21; NSE3; SMC5; NSE4,YES,YES,,15738391
+RNA polymerase III complex,curated consensus,YDR045C; YDL150W; YJL011C; YKL144C; YKR025W; YNL151C; YPR190C; YNR003C; YOR207C; YOR116C; YNL113W; YPR110C; YBR154C; YPR187W; YOR224C; YOR210W,RPC11; RPC53; RPC17; RPC25; RPC37; RPC31; RPC82; RPC34; RET1; RPO31; RPC19; RPC40; RPB5; RPO26; RPB8; RPB10,YES,YES,,9774381; 8246845
+proteasome regulatory particle,curated consensus,YDL147W; YHL030W; YDR363W-A; YFR010W; YGR232W; YDR394W; YER021W; YDR427W; YDL007W; YHR200W; YFR004W; YFR052W; YOR259C; YOR261C; YDL097C; YGL048C; YLR421C; YHR027C; YOR117W; YPR108W; YIL075C; YKL145W,RPN5; ECM29; SEM1; UBP6; NAS6; RPT3; RPN3; RPN9; RPT2; RPN10; RPN11; RPN12; RPT4; RPN8; RPN6; RPT6; RPN13; RPN1; RPT5; RPN7; RPN2; RPT1,YES,YES,,
+Ski complex,curated consensus,YGL213C; YLR398C; YKL023W; YPR189W,SKI8; SKI2; YKL023W; SKI3,YES,YES,Ykl023w is not known to be in the complex,
+eukaryotic translation initiation factor 2B complex,curated consensus,YDR211W; YLR215C; YOR260W; YLR291C; YGR083C; YJR007W; YER025W; YKR026C; YPL237W,GCD6; CDC123; GCD1; GCD7; GCD2; SUI2; GCD11; GCN3; SUI3,YES,YES,eIF-2B phosphorylates eIF-2 and is stably associated with eIF-2 alpha,8506384; 8336705
+exomer complex,curated consensus,YLR330W; YJL099W; YKR027W; YOR299W; YMR237W,CHS5; CHS6; BCH2; BUD7; BCH1,YES,YES,,
+INO80 complex,curated consensus,YFL039C; YER092W; YGL150C; YDL002C; YFL013C; YOR141C; YLR052W; YNL059C; YNL215W; YDR190C; YPL235W; YJL081C,ACT1; IES5; INO80; NHP10; IES1; ARP8; IES3; ARP5; IES2; RVB1; RVB2; ARP4,YES,YES,,10952318
+MIND complex,curated consensus,YAL034W-A; YPL233W; YIR010W; YJR112W,MTW1; NSL1; DSN1; NNF1,YES,YES,,14633972
+Elongator holoenzyme complex,curated consensus,YLR384C; YGR200C; YPL086C; YHR187W; YPL101W; YMR312W,IKI3; ELP2; ELP3; IKI1; ELP4; ELP6,YES,YES,,
+retromer complex,curated consensus,YHR012W; YJL154C; YJL053W; YOR069W; YOR132W; YPL070W,VPS29; VPS35; PEP8; VPS5; VPS17; MUK1,YES,YES,,9700157
+anaphase-promoting complex,curated consensus,YDR260C; YFR036W; YIR025W; YGL240W; YBL084C; YDR118W; YOR249C; YHR166C; YKL022C; YLR127C; YNL172W; YLR102C,SWM1; CDC26; MND2; DOC1; CDC27; APC4; APC5; CDC23; CDC16; APC2; APC1; APC9,YES,YES,,9469814; 12574115; 15797379
+proteasome core complex,curated consensus,YFL007W; YER012W; YGL011C; YBL041W; YOL038W; YFR050C; YGR135W; YER094C; YJL001W; YOR362C; YPR103W; YGR253C; YML092C; YOR157C; YMR314W,BLM10; PRE1; SCL1; PRE7; PRE6; PRE4; PRE9; PUP3; PRE3; PRE10; PRE2; PUP2; PRE8; PUP1; PRE5,YES,YES,Evidence based on computational method,
+"alpha-1,6-mannosyltransferase complex",curated consensus,YDR245W; YEL036C; YJL183W; YPL050C; YJR075W,MNN10; ANP1; MNN11; MNN9; HOC1,YES,YES,,9430634; 10037752
+ESCRT I complex,curated consensus,YCL008C; YLR119W; YGR206W; YPL065W,STP22; SRN2; MVB12; VPS28,YES,YES,,11511343
+cAMP-dependent protein kinase complex,curated consensus,YKL166C; YIL033C; YJL164C; YPL203W,TPK3; BCY1; TPK1; TPK2,YES,YES,,3036373
+translation release factor complex,curated consensus,YBR143C; YDR172W,SUP45; SUP35,YES,YES,,7556078
+Ku70:Ku80 complex,curated consensus,YMR106C; YMR284W,YKU80; YKU70,YES,YES,,8754818
+transcription factor TFIIIC complex,curated consensus,YGR047C; YAL001C; YDR362C; YBR123C; YOR110W; YPL007C,TFC4; TFC3; TFC6; TFC1; TFC7; TFC8,YES,YES,,10384303
+fatty acid synthase complex,curated consensus,YKL182W; YPL231W,FAS1; FAS2,YES,YES,,65153
+RENT complex,curated consensus,YDL042C; YJL076W,SIR2; NET1,YES,YES,,10219244
+septin complex,curated consensus,YJR092W; YJR076C; YCR002C; YHR107C; YDL225W; YLR314C,BUD4; CDC11; CDC10; CDC12; SHS1; CDC3,YES,YES,Bud4 is not known to be part of the complex,9813094; 18550837
+exocyst,curated consensus,YPR055W; YER008C; YJL085W; YIL068C; YDR166C; YLR166C; YBR102C; YGL233W,SEC8; SEC3; EXO70; SEC6; SEC5; SEC10; EXO84; SEC15,YES,YES,,8978675
+signalosome,curated consensus,YDR179C; YDL216C; YOL117W; YIL071C; YMR025W,CSN9; RRI1; RRI2; PCI8; CSI1,YES,YES,,12446563
+"preribosome, large subunit precursor",curated consensus,YLL008W; YER006W; YPL211W; YBR142W; YNL061W; YNL110C; YOL077C; YDR496C; YHR052W; YMR290C; YKR081C; YLL034C; YOR272W; YKL172W; YPR016C; YDR087C; YGL111W; YHR088W; YLR002C; YFL002C; YKL009W; YCL054W; YDL031W; YPL093W; YOR206W; YLR449W; YMR049C; YNL002C; YMR229C; YGR103W,DRS1; NUG1; NIP7; MAK5; NOP2; NOP15; BRX1; PUF6; CIC1; HAS1; RPF2; RIX7; YTM1; EBP2; TIF6; RRP1; NSA1; RPF1; NOC3; SPB4; MRT4; SPB1; DBP10; NOG1; NOC2; FPR4; ERB1; RLP7; RRP5; NOP7,YES,YES,,
+nucleotide-excision repair factor 2 complex,curated consensus,YEL037C; YER162C,RAD23; RAD4,YES,YES,,7768886
+calcineurin complex,curated consensus,YKL190W; YML057W,CNB1; CMP2,YES,YES,,1321337
+mitochondrial isocitrate dehydrogenase complex (NAD+),curated consensus,YOR136W; YNL037C,IDH2; IDH1,YES,YES,,16884682
+Mre11 complex,curated consensus,YDR369C; YMR224C,XRS2; MRE11,YES,YES,missing Rad50,9845372
+Rab-protein geranylgeranyltransferase complex,curated consensus,YJL031C; YPR176C,BET4; BET2,YES,YES,,8756702
+signal recognition particle receptor complex,curated consensus,YDR292C; YKL154W,SRP101; SRP102,YES,YES,,9679135
+endoplasmic reticulum Sec complex,curated consensus,YBR171W; YLR292C; YOR254C; YPL094C,SEC66; SEC72; SEC63; SEC62,YES,YES,,2000150; 8257795 ; 8051213
+eukaryotic translation initiation factor 3 complex,curated consensus,YAL035W; YDR091C; YBR079C; YMR309C; YLR192C; YDR429C; YMR146C; YPR041W; YOR361C; YNL244C,FUN12; RLI1; RPG1; NIP1; HCR1; TIF35; TIF34; TIF5; PRT1; SUI1,YES,YES,Fun12 and Rli1 are not known to be in the complex but are required for translation initiation,9660829
+HIR complex,curated consensus,YBL008W; YOR038C; YBR215W; YJR140C,HIR1; HIR2; HPC2; HIR3,YES,YES,,16303565; 16264190
+MutLalpha complex,curated consensus,YMR167W; YNL082W,MLH1; PMS1,YES,YES,,10570173
+RNA polymerase II complex,curated consensus,YGL043W; YDL115C; YDL140C; YGL070C; YGR005C; YGR186W; YIL021W; YDR404C; YOL005C; YJL140W; YOR151C; YGR063C; YML010W; YPL129W; YBR154C; YPR187W; YOR224C; YOR210W,DST1; IWR1; RPO21; RPB9; TFG2; TFG1; RPB3; RPB7; RPB11; RPB4; RPB2; SPT4; SPT5; TAF14; RPB5; RPO26; RPB8; RPB10,YES,YES,,9774381; 8246845
+chaperonin-containing T-complex,curated consensus,YJL014W; YDL143W; YDR188W; YIL142W; YJL111W; YOR281C; YNL212W; YJL008C; YJR064W,CCT3; CCT4; CCT6; CCT2; CCT7; PLP2; VID27; CCT8; CCT5,YES,YES,Plp1 and Vid27 are not known to be in the complex,15704212
+transcription factor TFIID complex,curated consensus,YBR198C; YDR167W; YDR145W; YMR236W; YGL112C; YGR274C; YMR227C; YML015C; YPL011C; YMR005W; YML098W,TAF5; TAF10; TAF12; TAF9; TAF6; TAF1; TAF7; TAF11; TAF3; TAF4; TAF13,YES,YES,,15448131; 10788514
+nascent polypeptide-associated complex,curated consensus,YHR193C; YPL037C; YDR252W,EGD2; EGD1; BTT1,YES,YES,,
+cytosolic large ribosomal subunit,curated consensus,YBL092W; YGL014W; YBR191W; YHR141C; YLR287C-A; YFR032C-A; YGR118W; YNL302C; YNL096C; YGL031C; YDR418W; YGL123W; YDR382W; YDL083C; YCR031C; YDR447C; YER074W; YBL027W; YDL136W; YHL001W; YJL177W; YGR034W; YMR194W; YKL180W; YBR181C; YOL040C; YHL033C; YFR031C-A; YNL069C; YML073C; YLR448W; YNL301C; YLR075W; YML063W; YLR441C; YJR123W; YNL178W; YPL090C; YLR150W; YGL147C; YBR031W; YGL030W; YDL075W; YGL103W; YDL082W; YDR471W; YMR242C; YOL127W; YGL135W; YGR085C; YIL133C; YLR029C; YDR012W; YOR312C; YGL076C; YLL045C; YOR063W; YPL198W; YPL249C-A; YLR340W; YIL018W; YPL220W; YMR142C; YOL039W,RPL32; PUF4; RPL21A; RPL42B; RPS30A; RPL29; RPS23A; RPS19B; RPS7B; RPL24A; RPL12B; RPS2; RPP2B; RPS16B; RPS14A; RPS17B; RPS24A; RPL19B; RPL35B; RPL14B; RPL17B; RPL26B; RPL36A; RPL17A; RPS6B; RPS15; RPL8A; RPL2A; RPL16B; RPL6A; RPL6B; RPL18B; RPL10; RPS1B; RPS1A; RPS5; RPS3; RPS6A; STM1; RPL9A; RPL4A; RPL30; RPL31A; RPL28; RPL13A; RPL27B; RPL20A; RPL25; RPL1B; RPL11B; RPL16A; RPL15A; RPL4B; RPL20B; RPL7A; RPL8B; RPL3; RPL7B; RPL36B; RPP0; RPL2B; RPL1A; RPL13B; RPP2A,YES,YES,,9559554; 10690410
+RAVE complex,curated consensus,YDR202C; YJR033C; YDR328C,RAV2; RAV1; SKP1,YES,YES,,11283612
+prefoldin complex,curated consensus,YJL179W; YEL003W; YGR078C; YNL153C; YML094W; YLR200W,PFD1; GIM4; PAC10; GIM3; GIM5; YKE2,YES,YES,,9463374; 9630229
+eukaryotic translation initiation factor 4F complex,curated consensus,YER165W; YGL049C; YGR162W; YOL139C,PAB1; TIF4632; TIF4631; CDC33,YES,YES,"Pab1 is known to be associated with TIF4632-1, but not officially annotated as part of the complex. missing Tif1-2p",8336723; 9841679
+core TFIIH complex,curated consensus,YDR311W; YLR005W; YPR056W,TFB1; SSL1; TFB4,YES,YES,missing Rad3 and Tfb2p,14500720
+phenylalanine-tRNA ligase complex,curated consensus,YLR060W; YFL022C,FRS1; FRS2,YES,YES,,9812975
+DNA replication factor A complex,curated consensus,YAR007C; YNL312W; YJL173C; YHR164C,RFA1; RFA2; RFA3; DNA2,YES,YES,Dna2 not known to be part of the complex,2554144
+"alpha,alpha-trehalose-phosphate synthase complex (UDP-forming)",curated consensus,YBR126C; YDR074W; YMR261C; YML100W,TPS1; TPS2; TPS3; TSL1,YES,YES,,
+GPI-anchor transamidase complex,curated consensus,YDR331W; YHR188C; YLR088W; YDR434W,GPI8; GPI16; GAA1; GPI17,YES,YES,,
+ribonucleoside-diphosphate reductase complex,curated consensus,YGR180C; YJL026W; YOR230W,RNR4; RNR2; WTM1,YES,YES,Wtm1 is transcriptional modulator of RNR genes,10716984
+exosome (RNase complex),curated consensus,YHR081W; YCR035C; YGR195W; YDL111C; YDR280W; YOR076C; YGR158C; YHR069C; YGR095C; YOL142W; YNL232W; YOL021C; YOR001W; YNR024W; YNL189W,LRP1; RRP43; SKI6; RRP42; RRP45; SKI7; MTR3; RRP4; RRP46; RRP40; CSL4; DIS3; RRP6; MPP6; SRP1,YES,YES,,10465791
+COMPASS complex,curated consensus,YBR175W; YBR258C; YDR469W; YHR119W; YAR003W; YLR015W; YPL138C; YKL018W,SWD3; SHG1; SDC1; SET1; SWD1; BRE2; SPP1; SWD2,YES,YES,,11687631
+SBF transcription complex,curated consensus,YER111C; YLR182W,SWI4; SWI6,YES,YES,,8423776
+protein farnesyltransferase complex,curated consensus,YDL090C; YKL019W,RAM1; RAM2,YES,YES,,1763050
+nuclear condensin complex,curated consensus,YFR031C; YDR325W; YLR272C; YLR086W; YBL097W,SMC2; YCG1; YCS4; SMC4; BRN1,YES,YES,,10811823
+snRNP U6,curated consensus,YER146W; YDL160C; YER112W; YCR077C; YJL124C; YBL026W; YDR378C; YNL147W; YJR022W; YMR268C; YLR438C-A,LSM5; DHH1; LSM4; PAT1; LSM1; LSM2; LSM6; LSM7; LSM8; PRP24; LSM3,YES,YES,,10369684; 11720284; 10580475
+subunit VII of the cytochrome bc1 complex,curated consensus,YDL189W; YDR529C; YBL045C; YPR191W,RBS1; QCR7; COR1; QCR2,"YES, not split u in subunits",YES,Rbs1 not known to be in the same complex,10873857
+putatie Saf1-Aah1 complex,curated consensus,YNL141W; YBR280C,AAH1; SAF1,NO,"NO, double check!",Aah1 is specifically degraded through Saf1 and has been suggested as a bonafide subunit of Skp1-Cullin-F-box,17517885
+putative Tkl2-Tkl1 isozyme complex,curated consensus,YBR117C; YPR074C,TKL2; TKL1,NO,NO,,
+putative Trm7-Ymr259c complex,curated consensus,YBR061C; YMR259C,TRM7; YMR259C,NO,NO,,
+putative Atg18-Atg2 complex,curated consensus,YFR021W; YNL242W,ATG18; ATG2,NO,NO,Atg2 is recruited by Atg18,
+putative Trm7-Rtt10 complex,curated consensus,YBR061C; YPL183C,TRM7; RTT10,NO,NO,,
+putative Nuc1-Trz1-Ymr099c complex,curated consensus,YJL208C; YKR079C; YMR099C,NUC1; TRZ1; YMR099C,NO,NO,,
+putative Sas5-Wtm2 complex,curated consensus,YOR213C; YOR229W,SAS5; WTM2,NO,NO,,
+putative Cdc47-Erg26 complex,curated consensus,YBR202W; YGL001C,MCM7; ERG26,NO,NO,,
+putative Flc2-Tcb3 complex,curated consensus,YAL053W; YML072C,FLC2; TCB3,NO,NO,,
+putative Rpl23a-Rpl23b-Bcp1-Rkm1 complex,curated consensus,YBL087C; YER117W; YDR361C; YPL208W,RPL23A; RPL23B; BCP1; RKM1,NO,NO,Rpl23a and Rpl23b are identical. Rkm1 methylates lysine residues of Rpl23a-bp,
+putative Rsa3-Urb1-Urb2-Nop8 complex,curated consensus,YLR221C; YKL014C; YJR041C; YOL144W,RSA3; URB1; URB2; NOP8,NO,NO,most proteins involed in pre-60S ribosome biogenesis,
+putative Ybr225w-Mds3-Cdc25 complex,curated consensus,YBR225W; YGL197W; YLR310C,YBR225W; MDS3; CDC25,NO,NO,,
+putative Tom71-Ylr072w complex,curated consensus,YHR117W; YLR072W,TOM71; YLR072W,NO,NO,,
+putative Flc2-Pdr5 complex,curated consensus,YAL053W; YOR153W,FLC2; PDR5,NO,NO,,
+putative Ecm30-Ubp15 complex,curated consensus,YLR436C; YMR304W,ECM30; UBP15,NO,NO,,
+putative Cox20-Chs1 complex,curated consensus,YDR231C; YNL192W,COX20; CHS1,NO,NO,,
+putative Hca4-Esf1-Esf2 complex,curated consensus,YJL033W; YDR365C; YNR054C,HCA4; ESF1; ESF2,NO,NO,all proteins are involved in 18S rRNA synthesis,
+putative Hsp42-Gln1 complex,curated consensus,YDR171W; YPR035W,HSP42; GLN1,NO,NO,,
+putative Bud6-Yor304c-a complex,curated consensus,YLR319C; YOR304C-A,BUD6; YOR304C-A,NO,NO,,
+putative Skp1-Ypt52-Ymr258c complex,curated consensus,YDR328C; YKR014C; YMR258C,SKP1; YPT52; YMR258C,NO,NO,Skp1 and Ymr258c are known to interact,11283612
+putative Bat1-Bat2 complex,curated consensus,YHR208W; YJR148W,BAT1; BAT2,NO,NO,"Bat1, Bat2 encode for the mitochondrial and cytosolic branched-chain amino acid aminotransferases respectively",
+putative Nfs1-Isd11 complex,curated consensus,YCL017C; YER048W-A,NFS1; ISD11,NO,NO,,
+putative Ser3-Ser33 isozyme complex,curated consensus,YER081W; YIL074C,SER3; SER33,NO,NO,Ser3 is an isozyme of Ser33,12525494
+putative Slx5-Swa2 complex,curated consensus,YDL013W; YDR320C,SLX5; SWA2,NO,NO,,
+putative Yjl070c-Amd1 complex,curated consensus,YJL070C; YML035C,YJL070C; AMD1,NO,NO,,
+putative Yer071c-Aim21-Cap1-Cap2 complex,curated consensus,YER071C; YIR003W; YIL034C; YKL007W,TDA2; AIM21; CAP2; CAP1,NO,NO,Cap1 and Cap2 are known to form heterodimers,
+putative Mob1-Dbf20 complex,curated consensus,YIL106W; YPR111W,MOB1; DBF20,NO,NO,Mob1 is known to form a kinase complex with Dbf2 which shares 80% sequence homology with Dbf20p,
+putative Psy2-Rrd1 complex,curated consensus,YNL201C; YIL153W,PSY2; RRD1,NO,NO,,
+putative Nvj1-Tos4 complex,curated consensus,YHR195W; YLR183C,NVJ1; TOS4,NO,NO,,
+putative Ark1-Ste4 complex,curated consensus,YDR264C; YOR212W,AKR1; STE4,NO,NO,"Akr1 acts as a negative regulator of the pheromone response pathway, potentially through Ste4p",8524293; 8649369
+putative Sla2-Lsb3 complex,curated consensus,YNL243W; YFR024C-A,SLA2; LSB3,NO,NO,,
+putative Cyc3-Yat1 complex,curated consensus,YAL039C; YAR035W,CYC3; YAT1,NO,NO,,
+putative Uba1-Ydr415c complex,curated consensus,YKL210W; YDR415C,UBA1; YDR415C,NO,NO,,
+putative Las17-Sla1-Vrp1 complex,curated consensus,YLR337C; YBL007C; YOR181W,VRP1; SLA1; LAS17,NO,NO,,
+putative Ela1-Tys1 complex,curated consensus,YNL230C; YGR185C,ELA1; TYS1,NO,NO,,
+putative Dre2-Tah18 complex,curated consensus,YKR071C; YPR048W,DRE2; TAH18,NO,NO,Both Dre2 and Tah18 show synthetic lethal interactions with pol3-13 allele,
+putative Kex2-Sil1 complex,curated consensus,YNL238W; YOL031C,KEX2; SIL1,NO,NO,,
+putative Ssl2-Yor352w complex,curated consensus,YIL143C; YOR352W,SSL2; YOR352W,NO,NO,,
+putative Tdh3-Pgk1-Eno2-Fba1-Pgm1 complex,curated consensus,YGR192C; YCR012W; YHR174W; YKL060C; YKL152C,TDH3; PGK1; ENO2; FBA1; GPM1,NO,NO,All proteins are involved in gluconeogenesis,
+putative Cin8-Zwf1 complex,curated consensus,YEL061C; YNL241C,CIN8; ZWF1,NO,NO,,
+putative Pcm1-Mgs1 complex,curated consensus,YEL058W; YNL218W,PCM1; MGS1,NO,NO,,
+putative Yef1-Utr1 complex,curated consensus,YEL041W; YJR049C,YEF1; UTR1,NO,NO,both ATP-NAD kinases,
+putative Ost1-Stt3 complex,curated consensus,YJL002C; YGL022W,OST1; STT3,NO,NO,Both proteins are part of the bigger oligosaccharyltransferase complex,
+putative Osh2-Swh1 complex,curated consensus,YDL019C; YAR042W,OSH2; SWH1,NO,NO,,
+putative Sit4-Sap185-Rts3-Hrk1 complex,curated consensus,YDL047W; YJL098W; YGR161C; YOR267C,SIT4; SAP185; RTS3; HRK1,NO,NO,Sit4 and Sap185 are known to be in a complex with eachother,
+putative Grh1-Fmp38 complex,curated consensus,YDR517W; YOR205C,GRH1; LRC5,NO,NO,,
+putative Tif1-Tif2 complex,curated consensus,YKR059W; YJL138C,TIF1; TIF2,NO,NO,Tif1 and Tif2 are identical,
+putative Sah1-Caf16 complex,curated consensus,YER043C; YFL028C,SAH1; CAF16,NO,NO,Caf16 is a member of CCR4-NOT complex,
+putative Bre1-Lge1 complex,curated consensus,YDL074C; YPL055C,BRE1; LGE1,NO,NO,,
+putative Fmc1-Atp12 complex,curated consensus,YIL098C; YJL180C,FMC1; ATP12,NO,NO,Fmc1 is thought to hel the folding-stability or functioning of At12p,
+putative Fpr3-Ssb2 complex,curated consensus,YML074C; YNL209W,FPR3; SSB2,NO,NO,,
+putative Ptc7-Sec14 complex,curated consensus,YHR076W; YMR079W,PTC7; SEC14,NO,NO,,
+putative Faa4-Ygl082w complex,curated consensus,YGL082W; YMR246W,YGL082W; FAA4,NO,NO,,
+putative Ykl088w-Ppz1 complex,curated consensus,YKL088W; YML016C,CAB3; PPZ1,NO,NO,,
+putative Hmt1-Scd6-Psp2 complex,curated consensus,YBR034C; YPR129W; YML017W,HMT1; SCD6; PSP2,NO,NO,Scd6 (Lsm13p) associates with methyltransferases (such as Hmt1p),
+putative Eft1-Eft2 complex,curated consensus,YOR133W; YDR385W,EFT1; EFT2,NO,NO,Both Eft1 and Eft2 encode for Elongation factor 2,
+putative Mnl1-Pdi1 complex,curated consensus,YHR204W; YCL043C,MNL1; PDI1,NO,NO,"both proteins located in the ER lumen, Pdi1 involved in formation disulfide bonds for secretory and cell-surface proteins, Mnl1 involved in degradation of glycoproteins",
+putative Nnf2-Yel043w complex,curated consensus,YEL043W; YGR089W,YEL043W; NNF2,NO,NO,,
+putative Yae1-Ynl260c complex,curated consensus,YJR067C; YNL260C,YAE1; YNL260C,NO,NO,,
+putative Erv46-Erv41-Ero1 complex,curated consensus,YAL042W; YML067C; YML130C,ERV46; ERV41; ERO1,NO,NO,Erv46 and Erv41 are known to be in the same complex,11157978
+putative Sok1-Rtn1-Crp1-Ids2-Pep4 complex,curated consensus,YDR006C; YDR233C; YHR146W; YJL146W; YPL154C,SOK1; RTN1; CRP1; IDS2; PEP4,NO,NO,,
+putative Vac8-Nce102 complex,curated consensus,YEL013W; YPR149W,VAC8; NCE102,NO,NO,,
+putative Tma20-Tma22 complex,curated consensus,YER007C-A; YJR014W,TMA20; TMA22,NO,NO,,
+putative Wbp1-Swp1 complex,curated consensus,YEL002C; YMR149W,WBP1; SWP1,NO,NO,Both proteins are part of the bigger oligosaccharyltransferase complex,
+putative Ubc4-Ufd4 complex,curated consensus,YBR082C; YKL010C,UBC4; UFD4,NO,NO,,
+putative Sfp1-Mrs6 complex,curated consensus,YLR403W; YOR370C,SFP1; MRS6,NO,NO,,
+putative Trm3-Fas1 complex,curated consensus,YDL112W; YKL182W,TRM3; FAS1,NO,NO,,
+putative Ste23-Mrn1 complex,curated consensus,YLR389C; YPL184C,STE23; MRN1,NO,NO,,
+putative Drn1-Dbr1 complex,curated consensus,YGR093W; YKL149C,DRN1; DBR1,NO,NO,,
+putative Yak1-Ypl247c complex,curated consensus,YJL141C; YPL247C,YAK1; YPL247C,NO,NO,,
+putative Fap1-Fpr1-Yil161w complex,curated consensus,YNL135C; YNL023C; YIL161W,FPR1; FAP1; YIL161W,NO,NO,,
+putative Crn1-Inp52-Bsp1 complex,curated consensus,YLR429W; YNL106C; YPR171W,CRN1; INP52; BSP1,NO,NO,,
+putative Uga1-Ndt80 complex,curated consensus,YGR019W; YHR124W,UGA1; NDT80,NO,NO,,
+putative Ptc6-Pro2 complex,curated consensus,YCR079W; YOR323C,PTC6; PRO2,NO,NO,,
+putative Tub3-Gcn1-Gcn20-Gfa1-Mae1-Sam1-Clu1 complex,curated consensus,YML124C; YGL195W; YFR009W; YKL104C; YKL029C; YLR180W; YMR012W,TUB3; GCN1; GCN20; GFA1; MAE1; SAM1; CLU1,NO,NO,,
+putative Pex5-Mmt1 complex,curated consensus,YDR244W; YMR177W,PEX5; MMT1,NO,NO,,
+putative Pcl8-Pho85 CDK-cyclin complex,curated consensus,YPL031C; YPL219W,PHO85; PCL8,NO,NO,Pcl8 is known to regulate glycogen synthase through interaction with Pho85p,9032248; 11602261
+putative Mba1-Ste50 complex,curated consensus,YBR185C; YCL032W,MBA1; STE50,NO,NO,,
+putative Ura5-Ura10 isozyme complex,curated consensus,YML106W; YMR271C,URA5; URA10,NO,NO,major and mnior isozymes,
+putative Pmr1-Psd1 complex,curated consensus,YGL167C; YNL169C,PMR1; PSD1,NO,NO,,
+putative Kem1-Gbp2-Sro9-Sbp1 complex,curated consensus,YGL173C; YCL011C; YCL037C; YHL034C,KEM1; GBP2; SRO9; SBP1,NO,NO,,
+putative Ipp1-Tus1-Ypl066w complex,curated consensus,YBR011C; YLR425W; YPL066W,IPP1; TUS1; YPL066W,NO,NO,,
+putative Ede1-Syp1 complex,curated consensus,YBL047C; YCR030C,EDE1; SYP1,NO,NO,,
+putative Pex14-Pex17 complex,curated consensus,YGL153W; YNL214W,PEX14; PEX17,NO,NO,"Pex14 and Pex17 are known to associate with eachother but also include Pex13p, Pex5 and Pex7p",
+putative Sum1-Rfm1 complex,curated consensus,YDR310C; YOR279C,SUM1; RFM1,NO,NO,,
+putative Ptc4-Ydr186c complex,curated consensus,YBR125C; YDR186C,PTC4; YDR186C,NO,NO,,
+putative Ybr137w-Sgt2-Mdy2-Yor164c complex,curated consensus,YBR137W; YOR007C; YOL111C; YOR164C,YBR137W; SGT2; MDY2; GET4,NO,NO,interaction between Mdy2 and YOR164c has been shown (16702403),
+putative Ygr071c-Vid22-Tbf1 complex,curated consensus,YGR071C; YLR373C; YPL128C,YGR071C; VID22; TBF1,NO,NO,,
+putative Yhb1-Aco1 complex,curated consensus,YGR234W; YLR304C,YHB1; ACO1,NO,NO,,
+putative Yjr136c-Ykl033w complex,curated consensus,YJR136C; YKL033W,TTI2; TTI1,NO,NO,,
+putative Lys20-Lys21 isozyme complex,curated consensus,YDL131W; YDL182W,LYS21; LYS20,NO,NO,,
+putative Nth1-Bmh1-Bmh2 complex,curated consensus,YDR001C; YDR099W; YER177W,NTH1; BMH2; BMH1,NO,NO,Bmh1 is the major isoform of Bmh2p,
+putative Met13-Yml082w complex,curated consensus,YGL125W; YML082W,MET13; YML082W,NO,NO,,
+putative Pyc1-Pyc2 isozyme complex,curated consensus,YGL062W; YBR218C,PYC1; PYC2,NO,NO,"Pyc2 is an isozyme of Pyc1, only double deletion shows phenotype",
+putative Gir2-Rbg2 complex,curated consensus,YDR152W; YGR173W,GIR2; RBG2,NO,NO,,
+putative Yhr131c-Rsp5 complex,curated consensus,YHR131C; YER125W,YHR131C; RSP5,NO,NO,,
+putative Ptc3-Paa1 complex,curated consensus,YBL056W; YDR071C,PTC3; PAA1,NO,NO,,
+putative Aro3-Bcs1 complex,curated consensus,YDR035W; YDR375C,ARO3; BCS1,NO,NO,,
+putative Yor251c-Rev1 complex,curated consensus,YOR251C; YOR346W,TUM1; REV1,NO,NO,,
+putative Cmd1-Mlc1-Myo2-Myo1-Mlc2 complex,curated consensus,YBR109C; YGL106W; YOR326W; YHR023W; YPR188C,CMD1; MLC1; MYO2; MYO1; MLC2,NO,NO,,
+putative Efg1-Bud22 complex,curated consensus,YMR014W; YGR271C-A,BUD22; EFG1,NO,NO,,
+putative Hsp42-Sis1 complex,curated consensus,YDR171W; YNL007C,HSP42; SIS1,NO,NO,,
+putative Ygr017w-Vip1 complex,curated consensus,YGR017W; YLR410W,YGR017W; VIP1,NO,NO,,
+putative Ygr130c-Ymr031c complex,curated consensus,YGR130C; YMR031C,YGR130C; YMR031C,NO,NO,,
+putative Put1-Ymr315w complex,curated consensus,YLR142W; YMR315W,PUT1; YMR315W,NO,NO,,
+putative Crm1-Mir1-Erd2-Tub1-Gea2-Mtr10-Kap104 complex,curated consensus,YGR218W; YJR077C; YBL040C; YML085C; YEL022W; YOR160W; YBR017C,CRM1; MIR1; ERD2; TUB1; GEA2; MTR10; KAP104,NO,NO,,
+putative Kap95-Nup1 nuclear pore subcomplex,curated consensus,YLR347C; YOR098C,KAP95; NUP1,NO,NO,contains only part of the nuclear pore complex,
+putative Emp24-Erv25-Erp3-Erp5 complex,curated consensus,YGL200C; YML012W; YDL018C; YHR110W,EMP24; ERV25; ERP3; ERP5,NO,NO,"Erp3p, Erp5 have protein similarity with Emp24 and Erv25p",
+putative Gdh1-Gdh3 isozyme complex,curated consensus,YOR375C; YAL062W,GDH1; GDH3,NO,NO,,
+putative Sas3-Nto1-Ylr455w complex,curated consensus,YBL052C; YPR031W; YLR455W,SAS3; NTO1; YLR455W,NO,NO,Sas3 and Nto1 are part of the NuA3 complex,
+putative Cwc2-Spp382-Ntr2 complex,curated consensus,YDL209C; YLR424W; YKR022C,CWC2; SPP382; NTR2,NO,NO,,
+putative Heh2-Erg24 complex,curated consensus,YDR458C; YNL280C,HEH2; ERG24,NO,NO,,
+putative Sgn1-Ygr250c complex,curated consensus,YGR250C; YIR001C,YGR250C; SGN1,NO,NO,,
+putative Oca6-Oca5-Oca4-Oca3-Oca1-Oca2 complex,curated consensus,YDR067C; YHL029C; YCR095C; YNL032W; YNL099C; YNL056W,OCA6; OCA5; OCA4; SIW14; OCA1; OCA2,NO,NO,,
+putative Yll032c-Yml119w complex,curated consensus,YLL032C; YML119W,YLL032C; YML119W,NO,NO,,
+putative Map1-Ybr030w complex,curated consensus,YBR030W; YLR244C,RKM3; MAP1,NO,NO,,
+putative core TFIIH Tfb5-Tfb2 subcomplex,curated consensus,YDR079C-A; YPL122C,TFB5; TFB2,NO,NO,,
+putative Gsy1-Gsy2 complex,curated consensus,YLR258W; YFR015C,GSY2; GSY1,NO,NO,Gsy1 and Gsy2 are similar,
+putative Ycp4-Rfs1-Pst2 complex,curated consensus,YCR004C; YBR052C; YDR032C,YCP4; RFS1; PST2,NO,NO,all proteins are members of the flavodoxin-like proteins,
+putative Dhr2-Ubp10 complex,curated consensus,YKL078W; YNL186W,DHR2; UBP10,NO,NO,,
+putative Ats1-Kti11 complex,curated consensus,YAL020C; YBL071W-A,ATS1; KTI11,NO,NO,,
+putative Yer140w-Slp1 complex,curated consensus,YER140W; YOR154W,YER140W; SLP1,NO,NO,,
+putative Ipp1-Ack1-Rom2 complex,curated consensus,YBR011C; YDL203C; YLR371W,IPP1; ACK1; ROM2,NO,NO,,
+putative Ypk1-Ypk2 complex,curated consensus,YKL126W; YMR104C,YPK1; YPK2,NO,NO,Ypk1 and Ypk2 are functionally redundant,
+putative Tao3-Yml081w complex,curated consensus,YIL129C; YML081W,TAO3; TDA9,NO,NO,,
+putative Hrr25-Ltv1-Rio2-Tsr1 complex,curated consensus,YKL143W; YDL060W; YPL204W; YNL207W,LTV1; TSR1; HRR25; RIO2,NO,NO,,
+putative Arx1-Rsa4-Sda1-Ipi3-Nsa2-Nog2-Bud20-Ipi1-Mdn1 complex,curated consensus,YDR101C; YCR072C; YGR245C; YNL182C; YER126C; YNR053C; YLR074C; YHR085W; YLR106C,ARX1; RSA4; SDA1; IPI3; NSA2; NOG2; BUD20; IPI1; MDN1,NO,NO,most proteins are associated with pre-60S ribosomal particles,
+putative Hog1-Rck2 complex,curated consensus,YLR113W; YLR248W,HOG1; RCK2,NO,NO,Hog1 is known to phosphorylate Rck2p,11344302
+putative Nup170-Nup53-Hms1 complex,curated consensus,YBL079W; YMR153W; YOR032C,NUP170; NUP53; HMS1,NO,NO,,
+putative Ade16-Ade17-Sol2 complex,curated consensus,YMR120C; YCR073W-A; YLR028C,ADE17; SOL2; ADE16,NO,NO,Ade17 and Ade17 encode isoforms,
+putative Rgd1-Fyv8 complex,curated consensus,YBR260C; YGR196C,RGD1; FYV8,NO,NO,,
+putative Pet112-Ymr293c complex,curated consensus,YBL080C; YMR293C,PET112; HER2,NO,NO,"petite formation, decreased metabolite accumulation",
+putative Cul3-Yil001w complex,curated consensus,YGR003W; YIL001W,CUL3; YIL001W,NO,NO,,
+putative Paa1-Ptc2 complex,curated consensus,YDR071C; YER089C,PAA1; PTC2,NO,NO,,
+putative Ypt1-Dss4 complex,curated consensus,YFL038C; YPR017C,YPT1; DSS4,NO,NO,all proteins involved in post-Golgi vesicle mediated transport,
+putative Nma2-Nma1 complex,curated consensus,YGR010W; YLR328W,NMA2; NMA1,NO,NO,both proteins are involved in the NAD salvage pathway,
+putative Cia1-Yhr122w-Met18-Nar1 complex,curated consensus,YDR267C; YHR122W; YIL128W; YNL240C,CIA1; YHR122W; MET18; NAR1,NO,NO,,
+putative Ddi1-Pmt4 complex,curated consensus,YER143W; YJR143C,DDI1; PMT4,NO,NO,,
+putative Ygr283c-Idp3 complex,curated consensus,YGR283C; YNL009W,YGR283C; IDP3,NO,NO,,
+putative Abp1-Crn1 complex,curated consensus,YCR088W; YLR429W,ABP1; CRN1,NO,NO,"Abp1 is an activator of the Arp2-3 complex, whereas Crn1 inhibits its function",
+putative Met13-Met12 isozyme complex,curated consensus,YGL125W; YPL023C,MET13; MET12,NO,NO,,
+putative Boi2-Cdc24 complex,curated consensus,YAL041W; YER114C,CDC24; BOI2,NO,NO,,
+putative Fun19-Kap123 complex,curated consensus,YAL034C; YER110C,FUN19; KAP123,NO,NO,,
+putative Ygr283c-Ymr310c complex,curated consensus,YGR283C; YMR310C,YGR283C; YMR310C,NO,NO,,
+putative Trr1-Trr2 complex,curated consensus,YDR353W; YHR106W,TRR1; TRR2,NO,NO,"Trr1 is part of the cytoplasmic thioredoxin system, Trr2 is part of the mitochondrial thioredoxin system (both thioredoxin reductases)",
+putative Fbp26-Ylr345w complex,curated consensus,YJL155C; YLR345W,FBP26; YLR345W,NO,NO,"Ylr345w show similarity to 6-phosphofructo-2-kinase-fructose-2,6-bisphosphatase enzymes",
+putative Pck1-Eno1 complex,curated consensus,YBL105C; YGR254W,PKC1; ENO1,NO,NO,,
+putative Tdh1-Tdh2 isozyme complex,curated consensus,YJL052W; YJR009C,TDH1; TDH2,NO,NO,,
+putative Gdi1-Ypt6-Ypt1 complex,curated consensus,YER136W; YLR262C; YFL038C,GDI1; YPT6; YPT1,NO,NO,all proteins involved in post-Golgi vesicle mediated transport,
+putative Bdh1-Bdh2 complex,curated consensus,YAL060W; YAL061W,BDH1; BDH2,NO,NO,"BDH2 has 51% homology with BDH1, putative alcohol dehydrogenase",
+putative Rps0a-Rps0b complex,curated consensus,YGR214W; YLR048W,RPS0A; RPS0B,NO,NO,Rps0a and Rps0b are nearly identical,
+putative Ubp13-Yol087c complex,curated consensus,YBL067C; YOL087C,UBP13; DUF1,NO,NO,,
+putative Pol4-Rpn5 complex,curated consensus,YCR014C; YDL147W,POL4; RPN5,NO,NO,,
+putative Erg7-Erg27 complex,curated consensus,YHR072W; YLR100W,ERG7; ERG27,NO,NO,both proteins are involved in ergosterol biosynthesis,
+putative Rrp7-Ifh1 complex,curated consensus,YCL031C; YLR223C,RRP7; IFH1,NO,NO,,
+putative Asn1-Asn2 isozyme complex,curated consensus,YGR124W; YPR145W,ASN2; ASN1,NO,NO,,
+putative Mdm10-Mpm1-Tom40-Yhm2 complex,curated consensus,YAL010C; YJL066C; YMR203W; YMR241W,MDM10; MPM1; TOM40; YHM2,NO,NO,,
+putative Ybt1-Dak1 complex,curated consensus,YLL048C; YML070W,YBT1; DAK1,NO,NO,,
+putative Cdc19-Pyk2 isozyme complex,curated consensus,YAL038W; YOR347C,CDC19; PYK2,NO,NO,Cdc19 and Pyk2 both encode pyruvate kinases and can compensate eachothers loss,
+putative Pkh1-Mrp8-Pil1-Lsp1 complex,curated consensus,YDR490C; YKL142W; YGR086C; YPL004C,PKH1; MRP8; PIL1; LSP1,NO,NO,Pil1 and Lsp1 are known to be in the same complex (eiosome),
+putative Lsg1-Nmd3-Rei1 complex,curated consensus,YGL099W; YBR267W; YHR170W,LSG1; REI1; NMD3,NO,NO,,
+putative Taf8-Taf14-Taf2 TFIID subcomplex,curated consensus,YML114C; YPL129W; YCR042C,TAF8; TAF14; TAF2,NO,NO,"All proteins are part of a bigger complex, TFIID",
+putative Ssd1-Psy4-Pph3-Psy2 complex,curated consensus,YDR293C; YBL046W; YDR075W; YNL201C,SSD1; PSY4; PPH3; PSY2,NO,NO,,
+putative Rim1-Rad52 complex,curated consensus,YCR028C-A; YML032C,RIM1; RAD52,NO,NO,,
+putative Nqm1-Tal1 complex,curated consensus,YGR043C; YLR354C,NQM1; TAL1,NO,NO,,
+putative Vab2-Ydr357c-Ykl061w-YGL079w-Ynl086w complex,curated consensus,YDR357C; YKL061W; YEL005C; YGL079W; YNL086W,YDR357C; YKL061W; VAB2; YGL079W; YNL086W,NO,NO,,
+putative Kap123-Ypr174c complex,curated consensus,YER110C; YPR174C,KAP123; YPR174C,NO,NO,,
+putative Spe3-Spe4 complex,curated consensus,YLR146C; YPR069C,SPE4; SPE3,NO,NO,both proteins are part of the pantothenic acid biosynthesis pathway,11154694
+putative Leu4-Leu9 isozyme complex,curated consensus,YNL104C; YOR108W,LEU4; LEU9,NO,NO,,
+putative Snf7-Vps4 complex,curated consensus,YLR025W; YPR173C,SNF7; VPS4,NO,NO,Vps4 is needed for dissociation of the ESCRT II complex (of which Snf7 is part of),
+putative Hmg1-Hmg2 isozyme complex,curated consensus,YLR450W; YML075C,HMG2; HMG1,NO,NO,,
+putative Oye2-Oye3 complex,curated consensus,YHR179W; YPL171C,OYE2; OYE3,NO,NO,Oye2 and Oye3 are homologous,
+putative Glt1-Ylr257w complex,curated consensus,YDL171C; YLR257W,GLT1; YLR257W,NO,NO,,
+spliceosome,curated consensus,YGL120C; YBR065C; YJR050W; YAL032C; YDR364C; YGR278W; YCR063W; YMR213W; YDL209C; YDR416W; YLL036C; YLR117C; YPL151C; YPR101W; YGL128C; YLR424W,PRP43; ECM2; ISY1; PRP45; CDC40; CWC22; BUD31; CEF1; CWC2; SYF1; PRP19; CLF1; PRP46; SNT309; CWC23; SPP382,"NO, not specific enough",NO,"Different compositions around Ntc20 and Cef1 complexes are known, which overla to a large degree",
+"1,3-beta-glucan synthase complex (GO)",GeneOntology,YGR032W; YLR342W; YPR165W,GSC2; FKS1; RHO1,YES,,,
+6-phosphofructokinase complex (GO),GeneOntology,YGR240C; YMR205C,PFK1; PFK2,YES,,,
+90S preribosome (GO),GeneOntology,YCR057C; YGR081C; YGR103W; YJL010C; snR17a; snR17b,PWP2; SLX9; NOP7; NOP9; SNR17A; SNR17B,YES,,,
+acetolactate synthase complex (GO),GeneOntology,YCL009C; YMR108W,ILV6; ILV2,YES,,,
+box C/D snoRNP complex (GO),GeneOntology,YDL014W; YEL026W; YLR197W; YOR310C; snR128; snR13; snR17a; snR17b; snR18; snR190; snR24; snR38; snR39; snR39B; snR4; snR40; snR41; snR47; snR48; snR50; snR51; snR52; snR53; snR54; snR55; snR56; snR57; snR58; snR59; snR60; snR61; snR62; snR63; snR64; snR65; snR66; snR67; snR68; snR69; snR70; snR71; snR72; snR73; snR74; snR75; snR76; snR77; snR78; snR79; snR87,NOP1; SNU13; NOP56; NOP58; SNR128; SNR13; SNR17A; SNR17B; SNR18; SNR190; SNR24; SNR38; SNR39; SNR39B; SNR4; SNR40; SNR41; SNR47; SNR48; SNR50; SNR51; SNR52; SNR53; SNR54; SNR55; SNR56; SNR57; SNR58; SNR59; SNR60; SNR61; SNR62; SNR63; SNR64; SNR65; SNR66; SNR67; SNR68; SNR69; SNR70; SNR71; SNR72; SNR73; SNR74; SNR75; SNR76; SNR77; SNR78; SNR79; SNR87,YES,,,
+box H/ACA snoRNP complex (GO),GeneOntology,YHR089C; YLR175W; snR10; snR11; snR161; snR189; snR191; snR3; snR30; snR31; snR32; snR33; snR34; snR35; snR36; snR37; snR42; snR43; snR44; snR46; snR49; snR5; snR8; snR80; snR81; snR82; snR83; snR84; snR85; snR86; snR9,GAR1; CBF5; SNR10; SNR11; SNR161; SNR189; SNR191; SNR3; SNR30; SNR31; SNR32; SNR33; SNR34; SNR35; SNR36; SNR37; SNR42; SNR43; SNR44; SNR46; SNR49; SNR5; SNR8; SNR80; SNR81; SNR82; SNR83; SNR84; SNR85; SNR86; SNR9,YES,,,
+calcineurin complex (GO),GeneOntology,YKL159C; YKL190W; YLR433C; YML057W,RCN1; CNB1; CNA1; CMP2,YES,,,
+CBF3 complex (GO),GeneOntology,YDR328C; YGR140W; YMR094W; YMR168C,SKP1; CBF2; CTF13; CEP3,YES,,,
+CCR4-NOT complex (GO),GeneOntology,YFL028C; YGR134W; YKR036C; YNL278W; YNL288W,CAF16; CAF130; CAF4; CAF120; CAF40,YES,,,
+chromatin accessibility complex (GO),GeneOntology,YDR121W; YGL133W; YJL065C; YOR304W,DPB4; ITC1; DLS1; ISW2,YES,,,
+chromatin assembly complex (GO),GeneOntology,YER030W; YJL115W; YOL012C,CHZ1; ASF1; HTZ1,YES,,,
+chromatin silencing complex (GO),GeneOntology,YBR195C; YDR227W; YKR101W; YLR442C,MSI1; SIR4; SIR1; SIR3,YES,,,
+cohesin loading complex (GO),GeneOntology,YDR180W; YER147C,SCC2; SCC4,YES,,,
+commitment complex (GO),GeneOntology,YDR240C; YGR074W; YHR086W; YIL061C; YKL074C; YLR116W; YLR147C; YLR298C; YML046W; YMR125W; YPL178W; snR19,SNU56; SMD1; NAM8; SNP1; MUD2; MSL5; SMD3; YHC1; PRP39; STO1; CBC2; SNR19,YES,,,
+Cul3-RING ubiquitin ligase complex (GO),GeneOntology,YBR114W; YGR003W; YJR052W; YNL230C; YPL046C,RAD16; CUL3; RAD7; ELA1; ELC1,YES,,,
+CURI complex (GO),GeneOntology,YCL031C; YGR090W; YLR223C; YOR039W; YPR104C,RRP7; UTP22; IFH1; CKB2; FHL1,YES,,,
+cyclin-dependent protein kinase holoenzyme complex (GO),GeneOntology,YBR135W; YBR160W; YDL127W; YDL179W; YER059W; YGL134W; YGL215W; YHR071W; YIL050W; YNL289W; YOL001W; YPL219W; YPL256C,CKS1; CDC28; PCL2; PCL9; PCL6; PCL10; CLG1; PCL5; PCL7; PCL1; PHO80; PCL8; CLN2,YES,,,
+cytoplasmic dynein complex (GO),GeneOntology,YDR424C; YDR488C; YKR054C; YMR299C,DYN2; PAC11; DYN1; DYN3,YES,,,
+Dbf4-dependent protein kinase complex (GO),GeneOntology,YDL017W; YDR052C,CDC7; DBF4,YES,,,
+DNA ligase IV complex (GO),GeneOntology,YGL090W; YLR265C; YOR005C,LIF1; NEJ1; DNL4,YES,,,
+"DNA-directed RNA polymerase II, holoenzyme (GO)",GeneOntology,YBR236C; YDL115C; YGR097W,ABD1; IWR1; ASK10,YES,,,
+DSIF complex (GO),GeneOntology,YGR063C; YML010W,SPT4; SPT5,YES,,,
+dynactin complex (GO),GeneOntology,YDR106W; YHR129C; YMR294W; YPL174C,ARP10; ARP1; JNM1; NIP100,YES,,,
+ESCRT III complex (GO),GeneOntology,YKL002W; YKL041W; YLR025W; YMR077C,DID4; VPS24; SNF7; VPS20,YES,,,
+exosome (RNase complex) (GO),GeneOntology,YOR076C,SKI7,YES,,,
+F-actin capping protein complex (GO),GeneOntology,YIL034C; YKL007W,CAP2; CAP1,YES,,,
+glutamate synthase complex (GO),GeneOntology,YDL171C,GLT1,YES,,,
+glycine cleavage complex (GO),GeneOntology,YAL044C; YDR019C; YFL018C; YMR189W,GCV3; GCV1; LPD1; GCV2,YES,,,
+glycosylphosphatidylinositol-N-acetylglucosaminyltransferase (GPI-GnT) complex (GO),GeneOntology,YDR437W; YGR216C; YNL038W; YPL076W; YPL096C-A; YPL175W,GPI19; GPI1; GPI15; GPI2; ERI1; SPT14,YES,,,
+heterogeneous nuclear ribonucleoprotein complex (GO),GeneOntology,YNL004W; YNL016W,HRB1; PUB1,YES,,,
+heterotrimeric G-protein complex (GO),GeneOntology,YHR005C; YJR086W; YOR212W,GPA1; STE18; STE4,YES,,,
+high affinity iron permease complex (GO),GeneOntology,YER145C; YMR058W,FTR1; FET3,YES,,,
+Holliday junction resolvase complex (GO),GeneOntology,YBR098W; YDR386W,MMS4; MUS81,YES,,,
+i-AAA complex (GO),GeneOntology,YCL044C; YPR024W,MGR1; YME1,YES,,,
+kinesin complex (GO),GeneOntology,YBL063W; YEL061C; YGL216W; YMR198W; YPL155C; YPL253C,KIP1; CIN8; KIP3; CIK1; KIP2; VIK1,YES,,,
+mannosyltransferase complex (GO),GeneOntology,YBR004C; YNL158W,GPI18; PGA1,YES,,,
+MCM complex (GO),GeneOntology,YBL023C; YBR202W; YEL032W; YGL201C; YLR274W; YPR019W,MCM2; MCM7; MCM3; MCM6; MCM5; MCM4,YES,,,
+Mdm10/Mdm12/Mmm1 complex (GO),GeneOntology,YAL010C; YLL006W; YOL009C,MDM10; MMM1; MDM12,YES,,,
+mitochondrial inner membrane peptidase complex (GO),GeneOntology,YEL059C-A; YMR035W; YMR150C,SOM1; IMP2; IMP1,YES,,,
+mitochondrial inner membrane presequence translocase complex (GO),GeneOntology,YGR033C; YJL104W; YJL143W; YLR008C; YNR017W; YPL063W,TIM21; PAM16; TIM17; PAM18; TIM23; TIM50,YES,,,
+mitochondrial inner membrane protein insertion complex (GO),GeneOntology,YBR091C; YDL217C; YJL054W; YOR297C,TIM12; TIM22; TIM54; TIM18,YES,,,
+mitochondrial intermembrane space protein transporter complex (GO),GeneOntology,YEL020W-A; YGR181W; YHR005C-A; YJR135W-A,TIM9; TIM13; TIM10; TIM8,YES,,,
+mitochondrial outer membrane translocase complex (GO),GeneOntology,YGR082W; YKL195W; YMR203W; YNL070W; YNL121C; YNL131W; YOR045W; YPR133W-A,TOM20; MIA40; TOM40; TOM7; TOM70; TOM22; TOM6; TOM5,YES,,,
+mitochondrial proton-transporting ATP synthase complex (GO),GeneOntology,YDL130W-A; YDL181W; YGR008C,STF1; INH1; STF2,YES,,,
+"mitochondrial proton-transporting ATP synthase complex, coupling factor F(o) (GO)",GeneOntology,Q0080; Q0085; Q0130; YDR322C-A; YDR377W; YLR295C; YML081C-A; YOL077W-A; YPR020W,ATP8; ATP6; OLI1; TIM11; ATP17; ATP14; ATP18; ATP19; ATP20,YES,,,
+mitochondrial respiratory chain complex II (GO),GeneOntology,YDR178W; YKL141W; YKL148C; YLL041C,SDH4; SDH3; SDH1; SDH2,YES,,,
+mitochondrial ribonuclease P complex (GO),GeneOntology,YML091C,RPM2,YES,,,
+mitochondrial ribosome (GO),GeneOntology,YDL069C; YGL068W; YKL142W; YPL132W,CBS1; MNP1; MRP8; COX11,YES,,,
+mitochondrial sorting and assembly machinery complex (GO),GeneOntology,YAL010C; YHR083W; YMR060C; YNL026W,MDM10; SAM35; SAM37; SAM50,YES,,,
+mitotic checkpoint complex (GO),GeneOntology,YGL116W; YJL013C; YJL030W; YOR026W,CDC20; MAD3; MAD2; BUB3,YES,,,
+monopolin complex (GO),GeneOntology,YCR086W; YDR439W; YER106W; YPL204W,CSM1; LRS4; MAM1; HRR25,YES,,,
+Mre11 complex (GO),GeneOntology,YDR369C; YMR224C; YNL250W,XRS2; MRE11; RAD50,YES,,,
+mRNA cap complex (GO),GeneOntology,YJL124C; YKL204W; YOR276W,LSM1; EAP1; CAF20,YES,,,
+MutLbeta complex (GO),GeneOntology,YMR167W; YPL164C,MLH1; MLH3,YES,,,
+myosin II complex (GO),GeneOntology,YHR023W,MYO1,YES,,,
+myosin V complex (GO),GeneOntology,YAL029C; YOR326W,MYO4; MYO2,YES,,,
+Noc1p-Noc2p complex (GO),GeneOntology,YDR060W; YOR206W,MAK21; NOC2,YES,,,
+Noc2p-Noc3p complex (GO),GeneOntology,YLR002C; YOR206W,NOC3; NOC2,YES,,,
+Noc4p-Nop14p complex (GO),GeneOntology,YDL148C; YPR144C,NOP14; NOC4,YES,,,
+NuA3 histone acetyltransferase complex (GO),GeneOntology,YBL052C; YJR082C; YOR064C; YPL129W; YPR031W,SAS3; EAF6; YNG1; TAF14; NTO1,YES,,,
+nuclear cap binding complex (GO),GeneOntology,YMR125W; YPL178W,STO1; CBC2,YES,,,
+nuclear RNA export factor complex (GO),GeneOntology,YKL186C; YPL169C,MTR2; MEX67,YES,,,
+nuclear SCF ubiquitin ligase complex (GO),GeneOntology,YFL009W; YIL046W,CDC4; MET30,YES,,,
+nuclear telomere cap complex (GO),GeneOntology,YBR275C; YDL042C; YDL220C; YDR082W; YDR227W; YGR099W; YLR010C; YLR150W; YLR442C; YLR453C; YNL216W,RIF1; SIR2; CDC13; STN1; SIR4; TEL2; TEN1; STM1; SIR3; RIF2; RAP1,YES,,,
+"nucleolar preribosome, large subunit precursor (GO)",GeneOntology,YER126C; YGR103W; YLR022C; YLR221C; YNR038W; YPL093W,NSA2; NOP7; SDO1; RSA3; DBP6; NOG1,YES,,,
+"nucleolar preribosome, small subunit precursor (GO)",GeneOntology,YBR247C; YGR081C; YJL010C; YKL143W; YNL178W,ENP1; SLX9; NOP9; LTV1; RPS3,YES,,,
+nucleotide-excision repair factor 1 complex (GO),GeneOntology,YML095C; YMR201C; YPL022W,RAD10; RAD14; RAD1,YES,,,
+nucleotide-excision repair factor 3 complex (GO),GeneOntology,YDR460W; YGR258C,TFB3; RAD2,YES,,,
+nucleotide-excision repair factor 4 complex (GO),GeneOntology,YBR114W; YJR052W; YKL112W; YPL046C,RAD16; RAD7; ABF1; ELC1,YES,,,
+oligosaccharyl transferase complex (GO),GeneOntology,YDL232W; YEL002C; YGL022W; YGL226C-A; YJL002C; YML019W; YMR149W; YOR085W; YOR103C,OST4; WBP1; STT3; OST5; OST1; OST6; SWP1; OST3; OST2,YES,,,
+palmitoyltransferase complex (GO),GeneOntology,YLR246W; YOL110W,ERF2; SHR5,YES,,,
+PCNA complex (GO),GeneOntology,YBR088C,POL30,YES,,,
+phosphopyruvate hydratase complex (GO),GeneOntology,YGR254W; YHR174W,ENO1; ENO2,YES,,,
+preribosome (GO),GeneOntology,YDL166C; YOR056C,FAP7; NOB1,YES,,,
+proteasome complex (GO),GeneOntology,YBR082C; YDR059C; YDR069C; YDR177W; YEL037C; YGL058W; YGR184C; YHL030W; YHR052W,UBC4; UBC5; DOA4; UBC1; RAD23; RAD6; UBR1; ECM29; CIC1,YES,,,
+proteasome core complex (GO),GeneOntology,YFL007W,BLM10,YES,,,
+proteasome regulatory particle (GO),GeneOntology,YDL020C; YFR010W; YGR232W,RPN4; UBP6; NAS6,YES,,,
+protein phosphatase type 1 complex (GO),GeneOntology,YBR045C; YBR050C; YDR028C; YER054C; YER133W; YLR273C; YOR178C,GIP1; REG2; REG1; GIP2; GLC7; PIG1; GAC1,YES,,,
+RecQ helicase-Topo III complex (GO),GeneOntology,YLR234W; YMR190C; YPL024W,TOP3; SGS1; RMI1,YES,,,
+RENT complex (GO),GeneOntology,YDL042C; YFR028C; YJL076W; YPL126W,SIR2; CDC14; NET1; NAN1,YES,,,
+repairosome (GO),GeneOntology,YBR114W; YEL037C; YER162C; YJR052W,RAD16; RAD23; RAD4; RAD7,YES,,,
+"retromer complex, outer shell (GO)",GeneOntology,YOR069W; YOR132W,VPS5; VPS17,YES,,,
+Rhp55-Rhp57 complex (GO),GeneOntology,YDR004W; YDR076W,RAD57; RAD55,YES,,,
+ribonuclease H2 complex (GO),GeneOntology,YDR279W; YLR154C; YNL072W,RNH202; RNH203; RNH201,YES,,,
+ribonucleoprotein complex (GO),GeneOntology,YIL149C; YKR095W; YOR198C,MLP2; MLP1; BFR1,YES,,,
+ribonucleoside-diphosphate reductase complex (GO),GeneOntology,YER070W; YGR180C; YIL066C; YJL026W,RNR1; RNR4; RNR3; RNR2,YES,,,
+RNA polymerase I transcription factor complex (GO),GeneOntology,YBL014C; YER148W; YJL025W; YKL125W; YML043C,RRN6; SPT15; RRN7; RRN3; RRN11,YES,,,
+RNA polymerase I upstream activating factor complex (GO),GeneOntology,YBL025W; YLR141W; YMR270C; YOR295W,RRN10; RRN5; RRN9; UAF30,YES,,,
+signal peptidase complex (GO),GeneOntology,YIR022W; YJR010C-A; YLR066W; YML055W,SEC11; SPC1; SPC3; SPC2,YES,,,
+Sin3 complex (GO),GeneOntology,YMR053C; YNL309W; YOL004W,STB2; STB1; SIN3,YES,,,
+Slx1-Slx4 complex (GO),GeneOntology,YBR228W; YLR135W,SLX1; SLX4,YES,,,
+small nuclear ribonucleoprotein complex (GO),GeneOntology,YER127W; YPR057W; YPR137W,LCP5; BRR1; RRP9,YES,,,
+SNARE complex (GO),GeneOntology,YAL030W; YGR009C; YPL232W,SNC1; SEC9; SSO1,YES,,,
+sulfite reductase complex (NADPH) (GO),GeneOntology,YFR030W; YJR137C,MET10; ECM17,YES,,,
+synaptonemal complex (GO),GeneOntology,YGL249W; YNL088W,ZIP2; TOP2,YES,,,
+telomerase catalytic core complex (GO),GeneOntology,TLC1; YLR318W,TLC1; EST2,YES,,,
+telomerase holoenzyme complex (GO),GeneOntology,YIL009C-A; YLR233C,EST3; EST1,YES,,,
+TORC1 complex (GO),GeneOntology,YHR186C; YJR066W; YKL203C; YNL006W; YPL180W,KOG1; TOR1; TOR2; LST8; TCO89,YES,,,
+TORC2 complex (GO),GeneOntology,YER093C; YIL105C; YJL058C; YKL203C; YMR068W; YNL006W; YNL047C; YOL078W,TSC11; SLM1; BIT61; TOR2; AVO2; LST8; SLM2; AVO1,YES,,,
+transcription elongation factor complex (GO),GeneOntology,YER164W; YGR116W; YNL230C; YPL046C; YPR133C,CHD1; SPT6; ELA1; ELC1; SPN1,YES,,,
+transcription factor complex (GO),GeneOntology,YCR081W; YDR443C; YNL025C; YPL042C; YPR186C,SRB8; SSN2; SSN8; SSN3; PZF1,YES,,,
+transcription factor TFIIIB complex (GO),GeneOntology,YER148W; YGR246C; YNL039W,SPT15; BRF1; BDP1,YES,,,
+translocon complex (GO),GeneOntology,YBR283C; YDR086C; YER019C-A; YER087C-B; YLR378C,SSH1; SSS1; SBH2; SBH1; SEC61,YES,,,
+tRNA-intron endonuclease complex (GO),GeneOntology,YAR008W; YLR105C; YMR059W; YPL083C,SEN34; SEN2; SEN15; SEN54,YES,,,
+ubiquitin conjugating enzyme complex (GO),GeneOntology,YDR092W; YGL087C,UBC13; MMS2,YES,,,
+ubiquitin ligase complex (GO),GeneOntology,YDL013W; YDR219C; YDR306C; YER116C; YER125W; YLR224W; YML111W; YMR275C; YNL311C; YOR057W,SLX5; MFB1; YDR306C; SLX8; RSP5; YLR224W; BUL2; BUL1; YNL311C; SGT1,YES,,,
+UDP-N-acetylglucosamine transferase complex (GO),GeneOntology,YBR070C; YGL047W,ALG14; ALG13,YES,,,
+vacuolar transporter chaperone complex (GO),GeneOntology,YER072W; YFL004W; YJL012C; YPL019C,VTC1; VTC2; VTC4; VTC3,YES,,,
+zeta DNA polymerase complex (GO),GeneOntology,YIL139C; YPL167C,REV7; REV3,YES,,,
