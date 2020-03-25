@@ -23,6 +23,6 @@ Other helpful R packages are listed at the top of the notebooks.
 
 Michael W. Dorrity, Lauren M. Saunders, Christine Queitsch, Stanley Fields & Cole Trapnell. Dimensionality reduction by UMAP to visualize physical and genetic interactions. Nat Commun 11, 1537 (2020). https://doi.org/10.1038/s41467-020-15351-4
 
-### Source Data
+### Source data
 
 Kemmeren, Patrick, Katrin Sameith, Loes A. L. van de Pasch, Joris J. Benschop, Tineke L. Lenstra, Thanasis Margaritis, Eoghan O’Duibhir, et al. 2014. Large-Scale Genetic Perturbations Reveal Regulatory Networks and an Abundance of Gene-Specific Repressors. Cell 157 (3): 740–52. https://doi.org/10.1016/j.cell.2014.02.054
